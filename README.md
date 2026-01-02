@@ -61,6 +61,11 @@ My primary observations concern the uneven distributions of the target variables
 There is an even greater disparity with steering angle. The vast majority of the data (>78%) has a steering angle between -5 and 5 degrees (0 being perfectly straight), which corresponds to relatively straight driving. As a result, most of the driving data represents going straight.
 
 ### 4.2 Visualizations
+![Preview Image](images/preview.png)
+![Distribution of discrete speeds](images/dist_of_discrete_speed.png)
+![Distribution of discrete steerings](images/dist_of_discrete_steering.png)
+![KDE Plot of speeds](images/kde_of_speed.png)
+![KDE Plot of steerings](images/kde_of_steering.png)
 * Example preview image of vehicle driving straight between 0-5 mph.
 * Distribution of speeds, discretized into bins. Most of the speeds (>55%) are >55 mph. 
 * Distribution of steering angles, discretized into bins. The vast majority (>78%) are near 0, indicating the driver was driving straight ahead.
