@@ -1,0 +1,2324 @@
+image_path,speed,steering_angle,discrete_speed,discrete_steering,rationale
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/11/preview.png,30.331250000000004,0.1,65+ mph,Straight,"1. Speed  
+- Where is the vehicle driving? What is a typical speed in this environment?  
+  The vehicle is on a multi-lane freeway at night. Typical freeway speeds in this setting range from 55 to 75 mph, depending on posted limits and traffic flow.  
+- What are the driving conditions? How should this impact the speed?  
+  The pavement appears dry, visibility is reduced due to darkness but there is no rain or snow. Under clear but low-light conditions, the driver should maintain freeway speed while remaining vigilant, possibly at the upper end of the speed limit if comfortable and conditions remain stable.  
+- What other agents are in the scene? What are their potential actions? How should that impact the driver’s speed?  
+  There are very few vehicles visible: one car in an adjacent lane ahead to the right, and tail lights in the distance. No pedestrians or cyclists. Other vehicles could brake or change lanes unexpectedly, so the driver should keep a safe following distance and be ready to reduce speed, but can otherwise maintain a steady freeway pace.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  The lane is essentially straight with only a very gentle alignment; no significant left or right bend is visible.  
+- Are there any potential obstacles in the driver’s way? If so, how should the driver steer to avoid them?  
+  There are no obstacles on the roadway surface. Guardrails and signage are off the travel lanes. No steering adjustments are needed beyond maintaining lane centering.  
+- What other agents are in the scene? What are their potential actions? How should that impact the driver’s steering angle?  
+  The lone vehicle to the right could drift or change lanes; the driver should maintain lane discipline and be prepared to make a slight corrective steering input if another car encroaches, but otherwise hold a straight steering angle.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-17-47/6/preview.png,18.819444444444443,0.3,35-55 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane suburban arterial (city street with a center median and parallel parked cars). Typical speeds on such roads range from 30–45 mph.  
+- Conditions are overcast but dry, with good visibility and no precipitation. These clear, dry conditions support traveling at the posted limit but still warrant vigilance for changing circumstances.  
+- Other agents include several moving vehicles ahead in the same direction, a car parked at the curb on the right, and oncoming traffic. The lead vehicles may slow or change lanes; parked cars could pull out. To maintain a safe following distance and allow reaction time, the driver should moderate speed, avoiding sudden braking or acceleration.
+
+2. Steering Angle  
+- The lane ahead is straight with only a very slight alignment drift; there is no significant left or right curvature.  
+- There are no immediate obstacles in the driving lane. Parked cars at the curb are off the roadway but should be monitored in case they pull away.  
+- Moving vehicles in adjacent lanes could drift or merge. Pedestrians are not visible on sidewalks, and no cyclists are in the lane. The driver should maintain a centered position in the lane, steering straight but ready to counter any drift or evasive maneuvers if a vehicle suddenly enters the lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--10-32-01/29/preview.png,31.708333333333336,7.3,65+ mph,Left,"1. Speed  
+- The vehicle is traveling on a multi-lane freeway. Typical speeds on such highways range from 55 to 75 mph, depending on local limits and traffic flow.  
+- The weather is overcast but dry, with no rain or snow visible. Dry pavement and good visibility allow for normal freeway speeds, though overcast light may require slightly increased vigilance.  
+- Other vehicles are present in adjacent and forward lanes. The convertible in the left lane and the sedan directly ahead could slow, merge, or change lanes. To maintain safe following distance, the driver should monitor their speeds and be prepared to decelerate if one of them brakes or drifts.
+
+2. Steering Angle  
+- The road is predominantly straight with a very gentle leftward curvature, as indicated by the guardrail on the right curving away and the lane markings angling slightly left.  
+- There are no immediate fixed obstacles in the lane. The driver should stay centered in their lane, making minor leftward steering to follow the roadway’s subtle left bend.  
+- The convertible to the left and other vehicles ahead could shift lanes unexpectedly. The driver should maintain a steady steering input, make gradual adjustments to stay within the lane, and avoid abrupt movements.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Left""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/4/preview.png,8.844444444444445,-9.7,5-35 mph,Right,"1. Speed  
+- The vehicle is driving on a city street at an intersection with trolley tracks and crosswalks. Typical urban speeds here range from 25 to 35 mph.  
+- It appears to be overcast but dry, so traction is normal. No need to reduce speed for weather, but remain alert to changes (puddles, slick spots).  
+- There are parked cars on both sides and a crosswalk directly ahead. Pedestrians could step into the roadway, and other road users (trolley, bikes) may emerge from between parked cars. This environment calls for a moderate speed—slow enough to stop for a pedestrian crossing or a streetcar pulling out, but not so slow as to block traffic flow.
+
+2. Steering Angle  
+- The lane ahead incorporates trolley tracks that curve gently to the right, and the painted lane guide lines also bend right.  
+- A parked SUV on the right curb encroaches slightly into the driver’s peripheral path; the driver should stay centered in the lane, following the gentle right curvature, to maintain safe clearance.  
+- No moving vehicles or pedestrians are currently in the driver’s immediate path, but the potential for someone stepping out from between parked cars on either side requires a steady, predictable steering approach—track the lane curve smoothly rather than making sudden corrections.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/11/preview.png,32.09236111111112,-4.9,65+ mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane divided freeway at night. Typical speeds on such freeways range from 55–75 mph, depending on posted limits.  
+- Conditions: The roadway appears clear and dry, with good visibility aided by the vehicle’s headlights. Night driving warrants slightly increased following distances and attentiveness, but does not by itself require drastic speed reduction in clear conditions.  
+- Other agents: There are several cars visible in the right lanes ahead, traveling at or near freeway speeds. Their potential actions include maintaining lane position or shifting lanes to pass slower traffic. To maintain a safe following distance and keep pace with traffic, the driver should hold a speed near the upper end of the freeway range while being ready to decelerate if any vehicle ahead slows or merges unpredictably.
+
+2. Steering Angle  
+- Lane curvature: The lane marking and yellow centerline appear almost perfectly straight with only a very gentle rightward sweep.  
+- Obstacles: No debris, parked vehicles, or pedestrians are present in the lane of travel.  
+- Other agents: All other vehicles are in adjacent lanes; none are encroaching into the host lane. The driver can keep the steering wheel centered, with only minimal micro-adjustments to stay aligned within the lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-17-47/5/preview.png,0.0,1.9,0-5 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane city street approaching a signalized intersection. Typical posted speeds in this environment range from 25–35 mph.  
+- Weather and road conditions appear clear and dry, which under normal circumstances would allow travel at the posted speed limit. However, approaching a red traffic signal requires a significant reduction in speed.  
+- Other agents: multiple vehicles are stopped in all lanes at the red light. There may be pedestrians beginning to step off the curb when the light changes. To avoid a rear-end collision and to yield to crossings, the driver should slow to a near stop well before the stop line.
+
+2. Steering Angle  
+- The lane markings ahead are straight with no visible curvature.  
+- There are no unexpected obstacles in the lane, only stopped cars directly ahead.  
+- Other agents (cars stopped ahead, potential pedestrians at the crosswalk) require the driver to maintain a straight heading aligned with the lane so as not to encroach into adjacent lanes or the crosswalk area.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--10-32-01/27/preview.png,30.695833333333336,2.2,65+ mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane freeway. Typical speeds on this type of road range from 55–70 mph depending on the posted limit and traffic flow.  
+- Conditions: The sky is overcast but the pavement is dry and visibility is good. In clear, dry conditions on a freeway, the driver can safely maintain near the speed limit, adjusting only for traffic.  
+- Other agents: There are passenger cars in adjacent lanes and a medium-sized truck in the right lane. None are suddenly decelerating or merging aggressively. To maintain safe spacing and traffic flow, the driver should match the prevailing freeway speed (around 65 mph).  
+
+2. Steering Angle  
+- Lane curvature: The lanes ahead are essentially straight with no significant left or right bends.  
+- Obstacles: No debris or static obstacles are visible in the vehicle’s lane.  
+- Other agents: Surrounding vehicles are maintaining their lanes without drifting. As long as the driver holds a centered position within the lane, no steering corrections beyond keeping the wheel straight are needed.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-17-47/9/preview.png,23.182638888888892,1.8,35-55 mph,Straight,"1. Speed  
+- Where is the vehicle driving (freeway, city streets, etc.)? What is a typical speed in this environment?  
+  The vehicle is on a multi-lane freeway. Typical speeds on this type of suburban freeway range from 55–65 mph, though actual traffic may flow more slowly.  
+- What are the driving conditions (clear, snowing, raining, etc.)? How should this impact the speed the vehicle is moving?  
+  Conditions are clear with dry pavement and good visibility. Under these ideal conditions, maintaining typical freeway speed is appropriate, provided traffic flow and spacing allow.  
+- What other agents are in the scene (other vehicles, bikers, pedestrians, etc.)? What are their potential actions (slowing down, walking in front of the car, swerving into the lane, etc)? How should that impact the driver's speed?  
+  Two neighboring vehicles are visible: one in the left lane and one in the right lane. Both appear to be traveling steadily. No pedestrians or cyclists are present. The driver should match the flow of traffic, maintain safe following distance, and be prepared to decelerate slightly if either vehicle changes lanes or slows.
+
+2. Steering Angle  
+- What is the curvature of the lane the vehicle is driving in? Is the lane straight, curved left, curved right, or other?  
+  The lane ahead is essentially straight with no significant curvature.  
+- Are there any potential obstacles in the driver’s way? If so, how should the driver steer to avoid these obstacles?  
+  No obstacles (debris, stalled vehicles, etc.) are present in the immediate path. The driver should maintain lane centering.  
+- What other agents are in the scene (other vehicles, bikers, pedestrians, etc.)? What are their potential actions (slowing down, walking in front of the car, swerving into the lane, etc)? How should that impact the driver's steering angle?  
+  The adjacent vehicles are stable in their lanes. The driver should keep the steering wheel centered (straight) while monitoring mirror checks in case another vehicle drifts or overtakes.
+
+3. Predicted Discrete Action  
+Provide your final discrete predictions using ONLY the allowed values.
+
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/7/preview.png,0.929861111111111,-1.0,0-5 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane urban street, likely approaching or stopped at an intersection. Typical posted speeds here would be in the 25–35 mph range, though lower speeds are common when there is signalized traffic.  
+- Conditions are clear and dry, so there is no weather-related reduction in visibility or traction required. Under normal flow you could travel at the posted limit, but current traffic flow is stopped or moving very slowly.  
+- Other agents: a black SUV immediately ahead is at a standstill or creeping, with additional vehicles queued in the adjacent lane. There are no pedestrians in the crosswalk at this moment, but the stopped queue and intersection control demand a near-zero speed until the light changes.  
+
+2. Steering Angle  
+- The lane ahead is straight with no curvature.  
+- There are no obstacles intruding into the lane; lane markings are clear and continuous.  
+- Other vehicles flank the driver’s car on the left and ahead; maintaining a centered, straight steering angle avoids encroaching on neighboring lanes or causing side collisions.  
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/7/preview.png,30.829166666666666,-2.3,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speeds on this type of road are in the range of 55–75 mph, with many limits around 65 mph.  
+- It is nighttime but the pavement appears dry and visibility, while reduced, is adequate. Under clear, dry conditions the vehicle can safely maintain freeway speeds, though slightly slower speeds can be chosen if the driver is wary of glare or reduced sight distance.  
+- Other agents consist of distant moving vehicles in adjacent lanes and parked cars on the right shoulder. None are merging immediately into the lane, and no pedestrians or cyclists are present. These conditions allow maintaining a steady freeway speed, with readiness to slow if a vehicle ahead significantly decelerates.
+
+2. Steering Angle  
+- The lane ahead is straight with no noticeable curvature.  
+- There are no obstacles in the driving lane; parked cars are off to the shoulder and do not intrude into the travel lanes.  
+- Other agents (far-ahead vehicles) remain centered in their lanes and show no signs of abrupt lateral movements. The driver should keep the wheels aligned to the lane center, maintaining a straight trajectory.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/4/preview.png,34.795833333333334,-4.5,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway/interstate highway. Typical speeds in this environment range from 65 to 75 mph.  
+- Conditions are clear and dry with good visibility. These favorable conditions support maintaining normal highway speeds.  
+- Other agents include a black sedan in the left lane, a white sedan ahead in the center lane, and a box truck in the right lane. They are traveling straight at consistent speeds. There are no slow-moving vehicles immediately cutting in or braking sharply, so the driver can safely maintain highway speed.  
+
+2. Steering Angle  
+- The lane ahead is essentially straight with no significant curvature.  
+- There are no obstacles (debris, stalled vehicles) impeding the lane. Concrete barriers line the left side, but they do not require steering adjustments.  
+- Other vehicles are holding their lanes and speeds; there is no need for evasive steering. The driver should keep the wheels centered.  
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/12/preview.png,29.569444444444446,-0.3,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane divided freeway. Typical posted speeds in this environment range from 65–75 mph, with actual traffic often flowing around 60–70 mph.  
+- The conditions are clear and dry under bright daylight. With good visibility and dry pavement, the driver can comfortably maintain near the posted limit, but must remain vigilant for traffic flow changes.  
+- Other agents: there are several passenger cars ahead in the center and right lanes, spaced at safe but not excessive gaps. They may slow or change lanes unpredictably. The driver should match the freeway flow (avoiding tail-gating) and be prepared to softly decelerate if the lead cars brake or merge.
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with only a very gentle grade and no significant curvature.  
+- No static obstacles (debris, stalled vehicles, barrier encroachments) appear in the driver’s path.  
+- Other agents: surrounding vehicles are all maintaining lane discipline. There are no bicyclists or pedestrians. As long as the vehicle remains centered in its lane, no steering adjustment beyond minimal straight-ahead alignment is required.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/3/preview.png,9.79513888888889,-1.8,5-35 mph,Straight,"1. Speed  
+- The vehicle is driving on city streets in a residential/urban neighborhood. Typical speeds here range from 25–35 mph (often posted as 25 mph).  
+- The driving conditions appear to be dry pavement under overcast skies, with good visibility and no precipitation. This allows maintaining normal city speeds but does not warrant higher speeds due to potential hidden hazards.  
+- Parked cars line both sides of the street. Pedestrians or cyclists could emerge between parked vehicles or from sidewalks. Vehicles might back out of driveways. To allow sufficient reaction time for any sudden movements, the driver should modulate speed toward the lower end of the city limit.
+
+2. Steering Angle  
+- The roadway ahead is essentially straight with a very gentle uphill grade. There is no significant left or right curvature.  
+- There are no immediate obstacles in the travel lane; the trolley rails are flush with the road surface. However, the driver should maintain center of lane to avoid stray debris near the rail grooves.  
+- With parked cars on both sides, there is a small risk of a door opening or a pedestrian stepping out. Remaining centered and steady in the lane ensures maximum clearance and preparedness to adjust steering if needed.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/5/preview.png,17.115277777777777,-1.1,35-55 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane urban arterial at night. Typical posted limits on such roads range from 35–45 mph; vehicles often travel up to 55 mph when traffic is light.  
+- Conditions appear clear and dry at night. There is no precipitation or fog, so traction is good. However, night driving reduces visual range, so the driver should avoid the upper extreme of the speed range.  
+- Other agents:  
+  • A lead car is visible ahead in the same lane at a moderate following distance. It may slow unexpectedly or change lanes.  
+  • Oncoming traffic in the median lanes poses no direct speed hazard but indicates this is not a high-speed freeway.  
+  • No pedestrians or cyclists are visible, but darkness could hide them near intersections or driveways.  
+
+  To maintain safety, the driver should choose a moderate urban arterial speed that allows quick braking if the lead car slows or a hazard appears.
+
+2. Steering Angle  
+- The lane marking ahead is straight with no visible curvature.  
+- No obstacles (debris, stalled vehicles, or construction cones) intrude into the lane.  
+- Other agents:  
+  • The lead vehicle may drift or swerve slightly if avoiding something, so the driver must stay centered and be prepared to make small steering corrections.  
+  • Oncoming headlights do not encroach into the lane.  
+
+  With a straight road and clear lane, minimal steering input is needed: keep wheels pointed forward and be ready for minor adjustments if the lead car maneuvers.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-06--10-04-53/36/preview.png,0.0,-0.5,0-5 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane urban street approaching an intersection controlled by traffic lights. Typical travel speeds here are in the 25–35 mph range when moving.  
+- Weather is clear and dry, so normal traction is available. However, the red signal ahead requires the vehicle to decelerate to a stop.  
+- Several other vehicles (an SUV directly ahead, a sedan to the right, a pickup to the left) are already stopped at the light. They have no intention of moving forward until the light turns green. No pedestrians are visible, but cross-traffic could start moving once the light changes. These factors dictate keeping the speed very low and fully stopped (0–5 mph) until the signal permits proceeding.
+
+2. Steering Angle  
+- The travel lane is straight with no noticeable curvature.  
+- There are no obstacles in the immediate path; the road ahead is clear except for the stopped vehicles.  
+- Other agents remain stationary; no evasive steering is required. The driver should maintain a straight steering angle, aligned with the lane center, in anticipation of a straight-through green signal.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/8/preview.png,29.86180555555556,-3.5,55-65 mph,Straight,"1. Speed  
+- Where is the vehicle driving? What is a typical speed in this environment?  
+  - The scene is a multi-lane freeway at night. Typical posted speeds on such freeways range from 55 to 70 mph depending on the jurisdiction.  
+- What are the driving conditions? How should this impact speed?  
+  - It is dark with limited ambient lighting. The windshield shows water droplets or dirt but no active precipitation. Nighttime visibility is reduced, so a slightly more cautious speed within the legal range is prudent.  
+- What other agents are in the scene? What are their potential actions? How should that impact speed?  
+  - Several vehicles are driving ahead in adjacent lanes. They may brake unexpectedly or change lanes. Maintaining a safe following distance and scanning for brake lights or turn signals means sustaining a steady speed but being ready to decelerate.  
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  - The freeway lanes appear straight with no significant curvature.  
+- Are there any potential obstacles in the driver’s way? If so, how should the driver steer to avoid these obstacles?  
+  - No debris or construction barrels are visible. The lanes are clear. Standard lane-centered steering is appropriate.  
+- What other agents are in the scene? What are their potential actions? How should that impact steering?  
+  - Other vehicles could drift or change lanes. The driver should maintain lane centering and make minor steering corrections (“straight”) while monitoring side mirrors for encroaching vehicles.  
+
+3. Predicted Discrete Action  
+{  
+    ""speed"": ""55-65 mph"",  
+    ""steering"": ""Straight""  
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/15/preview.png,10.5375,2.2,5-35 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane city street with parked cars on both sides and a posted speed limit sign around 40 mph. Typical speeds in this environment range from 35–45 mph when traffic is light.  
+- The weather is overcast but the road surface appears dry and clear. Under these conditions one can safely maintain posted speeds, but should remain alert for hidden hazards (e.g., wet leaves, oil).  
+- There are other moving vehicles ahead in the same lane and adjacent lanes, plus parked cars lining the curb. These could suddenly slow, merge, or open doors. Pedestrians might step off the curb between parked cars. To allow a safe reaction margin, the driver should travel below the maximum limit.  
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with no sharp curves visible.  
+- Parked vehicles along both sides pose potential obstacles if a driver or passenger suddenly opens a door or pulls out. Keeping the vehicle centered in the lane minimizes this risk.  
+- Moving cars in neighboring lanes could drift inward or change lanes. Maintaining a straight heading with minor adjustments ensures the vehicle stays predictably in its lane and gives time to respond to any unexpected incursions.  
+
+3. Predicted Discrete Action  
+{  
+    ""speed"": ""5-35 mph"",  
+    ""steering"": ""Straight""  
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/4/preview.png,1.2951388888888893,3.3,0-5 mph,Straight,"1. Speed  
+- The vehicle is at a multi-lane city street intersection controlled by traffic lights. Typical travel speeds on such roads range from 25 to 35 mph.  
+- It is nighttime and the roadway appears damp (reflections on the pavement), reducing tire grip and visibility. Under these conditions the driver should proceed with extra caution and be prepared to stop or slow more rapidly.  
+- Three other vehicles are stopped at the red light (one in each lane ahead). There are no pedestrians visible crossing, but turn signals or sudden lane changes by those vehicles could occur. Maintaining a very low speed, approaching zero, allows the driver to avoid rear-ending the car ahead and react if another vehicle paces forward abruptly.
+
+2. Steering Angle  
+- The vehicle’s lane is straight through the intersection; there is no curve to negotiate.  
+- No obstacles (potholes, debris, pedestrians) are present in the immediate lane.  
+- The adjacent vehicles on the left and right are stopped and not intruding into the lane. Keeping the wheel centered ensures the car will proceed straight when the light turns green without drifting.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--12-07-08/34/preview.png,28.19375,0.5,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speeds on such freeways range from 55 to 70 mph, depending on the posted limit.  
+- Conditions are clear and dry with good visibility. In clear, dry conditions, the vehicle can safely travel near the posted limit but should still account for traffic flow and maintain a safe following distance.  
+- Other agents: several passenger cars and light trucks are visible in adjacent lanes and ahead. They appear to be maintaining steady speeds with no sudden braking. There is potential for a merging vehicle from an on-ramp up ahead (signage and barrier locations suggest an entrance). To allow for a smooth merge and maintain safety, the driver should keep pace with traffic (around 60 mph) and be prepared to slightly adjust speed if a vehicle enters.
+
+2. Steering Angle  
+- The lane ahead is essentially straight with minimal curvature. The highway does not show any significant bend left or right in the immediate view.  
+- No static obstacles (debris, stalled vehicles) are visible in the current lane. The shoulder and median are clear.  
+- Other agents: nearby vehicles in neighboring lanes are maintaining lanes predictably. There is low risk of sudden lane-crossing because traffic is not congested. Steering should remain centered in the lane, with only small adjustments to stay equidistant from lane markings and to respond if a merging vehicle enters.
+
+3. Predicted Discrete Action  
+Provide your final discrete predictions using ONLY the allowed values:
+
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/7/preview.png,0.0,15.2,0-5 mph,Left,"1. Speed  
+- Environment: The vehicle is at a city street intersection controlled by traffic lights. Typical driving speeds in this setting range from 25–35 mph.  
+- Conditions: It is nighttime with clear, dry pavement and good visibility of lane markings. Under these conditions, normal cruising speed would still be 25–35 mph, but the red signal requires slowing to a stop.  
+- Other agents: Cross-traffic has a green or yellow light, and oncoming vehicles are approaching the intersection. Pedestrians could enter the crosswalk on the green. These factors mandate reducing speed to a full stop (0 mph) until the light changes and the intersection is clear.
+
+2. Steering Angle  
+- Lane curvature: The lanes ahead are straight, but the vehicle is positioned in the left-turn bay.  
+- Obstacles: A concrete splitter island and safety railing are visible to the right; steering must keep the vehicle clear of these.  
+- Other agents: No vehicles are impinging on the turn lane, but oncoming traffic occupies the opposite direction lanes. To prepare for the left turn once the light changes, the wheels should be aligned slightly left to stay centered in the turn bay and avoid the median.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Left""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--12-07-08/40/preview.png,4.5875,-8.2,5-35 mph,Right,"1. Speed  
+- The vehicle is on a multi-lane city street approaching an intersection. Typical speeds in this environment range from 25–35 mph, but when approaching a stop line or navigating traffic lights, actual speeds are often lower (around 5–35 mph).  
+- Weather and road conditions appear clear and dry, so there’s no need for additional speed reduction beyond normal city driving practice.  
+- There are several other vehicles stopped or rolling slowly in adjacent lanes. Cross-traffic could still enter the intersection on a green turn arrow, and pedestrians could step off the curb. To maintain safe following distance and be prepared to stop, the driver should keep speed in the lower city range.  
+
+2. Steering Angle  
+- The road ahead is mostly straight but gently curves to the right just past the intersection.  
+- There are no static obstacles in the vehicle’s immediate path. All vehicles are properly aligned in their lanes, and lane markings clearly define the travel path.  
+- Other drivers in adjacent lanes may drift or change lanes, especially trucks on the right. To stay centered in the lane and smoothly follow the roadway curvature, the driver needs a slight right steering correction.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/11/preview.png,31.342361111111114,-0.3,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. Typical speeds on this kind of roadway range from 55–70 mph, depending on the posted limit.  
+- It appears to be dark and the windshield shows light smearing or droplets, suggesting a wet surface or recent rain. Wet pavement should prompt a modest speed reduction to maintain traction and stopping distance.  
+- There are a few vehicles visible ahead in adjacent lanes, all with steady tail lights and no sudden braking. Maintaining highway speed while preserving a safe following gap is appropriate.
+
+2. Steering Angle  
+- The lane ahead is straight with clearly marked dashed lines; there is no noticeable curvature requiring a turn.  
+- No immediate obstacles (debris, stalled vehicles) are visible in the lane.  
+- Other vehicles remain centered in their lanes without weaving; minimal steering correction is needed to stay centered.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-06--10-04-53/35/preview.png,13.670833333333333,0.6000000000000001,5-35 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane urban arterial (city streets with a center turn lane, sidewalks, and adjacent buildings). Typical speed limits here range from 25–35 mph.  
+- Weather/road conditions appear dry and overcast. No precipitation or low-traction hazards are present, so there is no need to reduce speed below a safe urban cruising pace.  
+- Other agents: several passenger cars and a light truck are traveling in the same direction, with moderate spacing. Oncoming traffic occupies the left lanes. No pedestrians are currently crossing, but there are sidewalks and parked vehicles nearby, so the driver should remain alert and avoid sudden braking. The presence of preceding vehicles suggests maintaining a moderate following distance and speed in the 5–35 mph band (ideally toward the upper end, ~25 mph, but within that bracket).
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with only a very gentle alignment following the road.  
+- No immediate obstacles (potholes, debris, or stalled vehicles) are visible in the driver’s path. The curb and tree line on the right are static hazards but are well outside the lane.  
+- Other agents are staying within their lanes; no swerving or encroachment is evident. Pedestrians are on the sidewalk, not in the roadway. Thus, no evasive steering is required — maintain a straight trajectory centered in the lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-17-47/7/preview.png,10.006944444444446,-0.4,5-35 mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane city street approaching an intersection controlled by traffic lights. Typical speeds here are in the 25–35 mph range.  
+- Conditions: The pavement appears dry and the sky overcast but visibility is good. There’s no rain or snow to mandate heavy speed reduction; normal city speeds are appropriate, with some extra caution if lighting is poor.  
+- Other agents: There is a lead car slowing slightly as it approaches the intersection and parked vehicles along the curb. Pedestrians are visible on the sidewalks but not yet in the roadway. To allow a safe reaction if the lead car brakes or a pedestrian steps off the curb, maintain a moderate city speed rather than accelerating to the maximum.
+
+2. Steering Angle  
+- Lane curvature: The lane ahead is straight through the intersection. There’s no left or right bend.  
+- Obstacles: No debris or sudden obstacles are in the path; vehicles are parked outside the travel lane.  
+- Other agents: The lead car might decelerate, but it stays centered in its lane. No cyclists or turning vehicles crowding our lane. Keep the wheel aligned straight to track the lane center.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/31/preview.png,0.0,-8.8,0-5 mph,Right,"1. Speed  
+- Environment: The vehicle is in a parking lot aisle in front of a retail/restaurant building (an In-N-Out). Typical speeds in parking lots are very low, generally under 10 mph to allow for unexpected pedestrian or vehicle movements.  
+- Conditions: The pavement is dry and visibility is clear, but the proximity of parked cars and potential foot traffic warrants an especially cautious pace.  
+- Other agents: Numerous parked vehicles line both sides of the aisle. Pedestrians could step out from between cars, or another driver could back out of a space. To safely monitor these possibilities and have time to brake, the driver should maintain a crawl speed.  
+
+2. Steering Angle  
+- Aisle geometry: There are no formal lane markings, but the parking aisle veers slightly to the right as it passes the front of the building and curves toward exit lanes.  
+- Obstacles: Parked cars tightly flank the vehicle on both sides. Poles, lamp posts, and landscaping elements are near the curb. A small rightward steering adjustment helps center the vehicle in the aisle and avoids clipping the cars or fixed objects.  
+- Other agents: A pedestrian might emerge from between parked vehicles on either side, or a car could reverse into the aisle. A gentle right steering angle maintains maximum clearance on both sides and positions the vehicle for a quick stop if needed.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/10/preview.png,30.37847222222222,-1.1,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. Typical speeds on this type of highway range between 55–75 mph.  
+- Conditions are clear and dry, with good visibility of the road surface and lane markings but reduced ambient light. A dry, clear night permits freeway speeds but requires vigilance for glare from oncoming lights and brake lights.  
+- Other agents include several vehicles up ahead in the same direction and oncoming traffic separated by a concrete median barrier. The cars ahead appear evenly spaced and moving at freeway pace. Their potential actions include sudden braking or lane changes, so the driver should maintain a safe following distance and be prepared to decelerate. Given the flow, maintaining freeway speed (around 65 mph) is appropriate.
+
+2. Steering Angle  
+- The lane is essentially straight, with no sharp curvature visible.  
+- There are no immediate obstacles in the lane; the roadway is clear.  
+- Other agents (vehicles ahead and to the sides) are staying in their lanes. Their potential actions (such as drifting or lane changes) are minimal given the steady flow. Keeping the steering wheel centered to stay within the lane is the correct choice.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/8/preview.png,27.75486111111112,9.9,55-65 mph,Left,"1. Speed  
+- The vehicle is on a multi-lane freeway at night. A typical speed limit on such freeways is around 65 mph.  
+- It is raining or has just rained (water droplets on the windshield, wet roadway, low visibility). Wet conditions warrant reducing speed by 5–10 mph below the posted limit to maintain traction and safe stopping distance.  
+- Other agents include several cars in adjacent lanes and ahead. They could brake suddenly or change lanes, so a safe following distance and a moderate speed are essential to allow reaction time.
+
+2. Steering Angle  
+- The freeway lane ahead is mostly straight but exhibits a gentle leftward sweep as it continues.  
+- There are no static obstacles in the immediate path, but the wet surface and blurred visibility from raindrops demand precise lane-keeping to avoid drifting.  
+- Nearby vehicles in the right lanes might merge or drift slightly; a slight left steering correction helps keep the vehicle centered in its lane and away from their blind spots.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Left""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/10/preview.png,29.488888888888894,-3.5,55-65 mph,Straight,"1. Speed  
+- Environment: The vehicle is traveling on a multi-lane freeway. Typical speeds on this type of road range from 55–65 mph under normal conditions.  
+- Driving conditions: It appears to be daytime with overcast skies and possibly light fog but no precipitation on the pavement. The road surface is dry and visibility is adequate. These conditions support maintaining the normal freeway speed range, with only a slight reduction if visibility worsens.  
+- Other agents:  
+  • A silver sedan is directly ahead in the same lane, maintaining speed.  
+  • A white SUV is in the adjacent right lane, also traveling at a similar pace.  
+  • Additional vehicles are visible farther ahead.  
+Potential actions: the sedan could slow or change lanes; the SUV could drift toward this lane if merging. The driver should maintain a safe following distance (2–3 seconds) and be ready to adjust speed if the sedan slows or merges traffic changes.
+
+2. Steering Angle  
+- Lane curvature: The lane is essentially straight with no significant curvature.  
+- Obstacles: No stationary or unexpected obstacles are present within the lane.  
+- Other agents: The sedan ahead and the SUV to the right are the closest vehicles. Neither appears to be encroaching on the lane, but the driver should remain centered in the lane and prepared to steer slightly if the SUV drifts or if the sedan changes lanes.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/5/preview.png,0.0,3.8,0-5 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane city street approaching a signalized intersection. Typical speeds on these roads are around 25–35 mph when traffic is free-flowing.  
+- Weather and road conditions are clear and dry, which normally permit maintaining the posted speed limit. However, approaching a red light requires deceleration.  
+- Multiple vehicles directly ahead and to the sides are stopped at the red signal and are likely to remain stationary until the light changes. To avoid a collision, the driver should continue slowing and maintain a very low speed while stopped or crawling up toward the intersection.
+
+2. Steering Angle  
+- The lane geometry is essentially straight with no significant curvature.  
+- There are no obstacles in the direct path; the road ahead is clear except for the stopped vehicles. No avoidance maneuvers are necessary.  
+- Adjacent vehicles are stationary, and none are encroaching into the driver’s lane. The driver should keep the wheels pointed straight to stay centered in the lane and be ready to proceed on green.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/7/preview.png,27.19166666666667,-1.1,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. Typical speeds on this type of highway range from 55 to 65 mph.  
+- Conditions appear clear and dry, with good visibility from overhead lighting. In clear conditions, maintaining the normal freeway speed is appropriate, as there’s no precipitation or low-traction surface.  
+- There are other vehicles in adjacent lanes and one directly ahead. These cars are maintaining freeway speed and lane position. To keep a safe following distance and blend with traffic flow, the driver should maintain a steady freeway pace rather than slowing abruptly or accelerating excessively.
+
+2. Steering Angle  
+- The lane ahead is essentially straight with no significant curvature.  
+- There are no visible obstacles in the lane (debris, stalled vehicles, etc.).  
+- Other vehicles are traveling parallel in adjacent lanes and the car ahead is centered in its lane. Their potential actions (slowing, lane-changing) are minimal here, so the driver should continue steering straight to stay centered in the current lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/8/preview.png,12.786805555555556,6.0,5-35 mph,Left,"1. Speed  
+- Environment: The vehicle is on a multi-lane city street or urban arterial, not a freeway. Typical speeds in this environment range from 25–35 mph under normal conditions.  
+- Conditions: It is nighttime with adequate street lighting; the road appears dry and visibility is moderate (some glare/smudges on the windshield). At night, drivers should reduce speed slightly below the posted limit to account for reduced reaction time.  
+- Other agents: There are two vehicles ahead in adjacent lanes and oncoming traffic with bright headlights. These vehicles may slow for intersections or change lanes. Oncoming glare and the proximity of other cars warrant maintaining a cautious, controlled speed.  
+
+2. Steering Angle  
+- Lane curvature: The lane markings indicate a gentle leftward curve or merge toward the center lanes. The driver should follow this subtle left curvature to stay centered in the lane.  
+- Obstacles: There is a raised median or barrier to the right defined by thick white lines. No immediate static obstacles in the intended path, but the road geometry itself guides a slight left steering input.  
+- Other agents: The two cars ahead could brake or shift laterally. Staying within the curved lane and keeping a buffer to the car directly ahead requires a minor leftward steering adjustment to align with the center of the lane.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Left""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/6/preview.png,20.00486111111111,-2.6,35-55 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  The vehicle appears to be on a multi-lane suburban arterial or minor highway at night rather than a controlled-access freeway. Typical posted speeds on such roads range from 35–55 mph.  
+- What are the driving conditions?  
+  It is nighttime with clear, dry pavement and no visible precipitation. Limited ambient lighting reduces visibility, so a cautious approach within the posted range is warranted.  
+- What other agents are in the scene?  
+  Two vehicles are visible in the right lane ahead, moving at a steady pace. There are no pedestrians, cyclists, or sudden entry points. Maintaining a safe following distance at a moderate speed reduces the risk if the lead vehicles brake unexpectedly.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  The lane is essentially straight with no significant left or right bend in the near field.  
+- Are there any potential obstacles?  
+  No debris, roadwork cones, or stationary objects are present in the driving lane.  
+- What other agents are in the scene?  
+  The two vehicles ahead are centered in their lane and not indicating lane changes. No roadside hazards or vulnerable road users are encroaching. Therefore, minimal steering adjustment is needed to stay centered.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/9/preview.png,29.793750000000003,0.7999999999999999,55-65 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  • The scene is a multi-lane freeway. Typical speed limits on such freeways range from 55–70 mph.  
+- What are the driving conditions?  
+  • The road surface is dry and visibility is clear (daylight, no rain or snow). These ideal conditions allow maintaining freeway speeds safely.  
+- What other agents are in the scene?  
+  • Several passenger cars are visible in adjacent lanes and ahead. They appear to be traveling at similar speeds without abrupt braking. To maintain a safe following distance and traffic flow, the driver should cruise at or just below the prevailing freeway speed.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  • The lane ahead is essentially straight with no significant left or right bend.  
+- Are there any potential obstacles?  
+  • No debris or roadwork markings are apparent in the lane. Guardrails and vegetation line the sides at a distance.  
+- What other agents are in the scene?  
+  • Vehicles in adjacent lanes are holding steady courses. No pedestrians, cyclists, or erratically maneuvering vehicles are present. The driver can maintain a straight steering angle, making only minor corrections to stay centered.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/6/preview.png,21.664583333333333,-2.2,35-55 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speeds in this environment range from 55–65 mph.  
+- The weather and road conditions are clear and dry with good visibility. Under these conditions, the vehicle can safely travel near the posted limit, though it may choose a slightly lower speed to maintain safe following distances in traffic.  
+- There are several other vehicles ahead and to the left. They appear to be traveling at moderate freeway speeds and maintaining lane discipline. To match traffic flow and keep a safe gap, the host vehicle should travel at approximately 35–55 mph when traffic is slightly denser or when approaching slower vehicles.
+
+2. Steering Angle  
+- The lane ahead is essentially straight with no significant curvature.  
+- There are no obstacles or debris in the host lane; the road surface is clear.  
+- Other vehicles are traveling in adjacent lanes without erratic maneuvers. There is no indication they will swerve into the host lane, so the driver should hold a straight steering angle to remain centered in the lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/12/preview.png,30.609027777777783,-0.5,65+ mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  • The scene shows a multi-lane, divided freeway at night. Typical speeds on such freeways range from 55 to 75 mph depending on posted limits.  
+- What are the driving conditions?  
+  • It is dark with light reflecting off the pavement and small droplets on the windshield, suggesting a recently wet or light-rain condition. Reduced traction and visibility at night and on a damp road warrant maintaining a margin below maximum legal speed.  
+- What other agents are in the scene?  
+  • A few vehicles with red taillights are visible well ahead in the center lanes. They appear to be moving steadily without braking. There are no pedestrians, bikers, or slow-moving vehicles on or alongside the freeway. The low traffic density allows maintaining highway speed, but the driver should be prepared to adjust speed if those vehicles slow or change lanes.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  • The lane markings ahead run straight with no noticeable left or right curvature.  
+- Are there any potential obstacles?  
+  • No debris, stalled cars, or roadwork are visible in the driver’s path. The roadway is clear.  
+- What other agents are in the scene?  
+  • The few cars ahead are centered in their lanes and not encroaching. No sudden lane-change moves are apparent. The driver should keep the wheel centered and make only minimal adjustments to stay in the middle of the lane.
+
+3. Predicted Discrete Action  
+Provide your final discrete predictions using ONLY the allowed values:
+
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--12-07-08/41/preview.png,12.955555555555556,0.0,5-35 mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane urban/residential arterial (city street) with a posted 40 mph limit. Typical speeds here range from 30–45 mph when traffic is light and visibility is good.  
+- Driving conditions: It is daytime with clear skies and a dry road surface. Under these conditions one can legally travel near the speed limit, but urban hazards (parked cars, cross-traffic) often warrant moderation.  
+- Other agents: Cars are parked along both sides of the street and several vehicles are traveling ahead in the same direction. Parked vehicles may pull out, and moving vehicles may brake or change lanes. To maintain a safe following distance and allow reaction time for unexpected maneuvers, the driver should travel at a moderate speed within the 5–35 mph range rather than accelerating to the full limit.
+
+2. Steering Angle  
+- Lane curvature: The lane is essentially straight with no significant bends.  
+- Obstacles: There are no immediate obstacles in the lane. Parked cars line the curb to the right and a raised median with vegetation lies to the left; the vehicle should stay centered in its lane.  
+- Other agents: Moving vehicles ahead may slow or shift lanes, and parked cars could pull into traffic. Maintaining a straight steering angle keeps the vehicle aligned in the center of its lane, maximizing buffer space on both sides.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--12-07-08/36/preview.png,24.72777777777778,-3.4,35-55 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway (an overpass is visible), where typical speeds range from 55–65 mph.  
+- Conditions appear clear and dry, with good visibility and road grip; this supports maintaining freeway speeds but always allows for moderating if needed.  
+- Other agents: several cars occupy adjacent and leading lanes. They’re traveling at a steady pace; none are braking sharply or merging aggressively. The driver should keep a safe following distance and be prepared to adjust speed if any vehicle ahead slows or changes lanes unexpectedly.
+
+2. Steering Angle  
+- The lane ahead appears essentially straight, with no significant left or right curvature.  
+- There are no visible obstacles (debris, stalled vehicles) in the current lane, so no evasive steering is required.  
+- Other agents in adjacent lanes could drift or merge; maintaining a steady, centered steering position (“Straight”) ensures lane discipline and room for evasive maneuvers if needed.
+
+3. Predicted Discrete Action  
+Provide your final discrete predictions using ONLY the allowed values:
+
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/6/preview.png,0.0,-6.0,0-5 mph,Right,"1. Speed  
+- The vehicle is on city streets at a signalized intersection. Typical speeds in this environment are around 25–35 mph when driving through, but vehicles must stop at red lights.  
+- Conditions are clear and dry with good visibility, so there’s no weather-related need to reduce speed further than required by traffic controls.  
+- Other agents include:
+  • A stopped SUV directly ahead and another vehicle waiting to its left.  
+  • A pedestrian standing on the right curb.  
+  • Cross-traffic stopped at the red light.  
+  All vehicles and the pedestrian are stationary, and the light is red. The driver should remain stopped (0–5 mph) until the signal changes.
+
+2. Steering Angle  
+- The lane ahead is straight; there is no bend or curve.  
+- There are no obstacles intruding into the lane; the only obstructions are the stopped vehicles ahead, which require no lateral avoidance at this moment.  
+- Other agents (parked and stopped cars, the pedestrian on the sidewalk) are not encroaching on the lane. The driver should keep the wheels aligned with the center of the lane, with only a minimal rightward adjustment as needed to stay centered.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--20-41-07/15/preview.png,28.74027777777778,4.1,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. A typical speed limit in this environment is 65 mph.  
+- Conditions are clear and dry, though nighttime visibility is reduced. The driver should adjust to maintain a safe speed consistent with the limit and good headlight illumination, typically in the 55–65 mph range under these circumstances.  
+- Other agents in the scene are sparse: a few vehicles are visible as red taillights far ahead in the same direction, with no pedestrians or cyclists. Their actions (steady spacing, no merging nearby) suggest no need for abrupt speed changes, so maintaining a steady freeway speed with adequate following distance is appropriate.
+
+2. Steering Angle  
+- The lane curvature ahead is very slight to the right, but the current segment is effectively straight.  
+- There are no obstacles on the roadway or debris requiring avoidance. Lane markings are clear and the shoulders are unoccupied.  
+- Other vehicles are distant and remain centered in their lanes. No sudden merges or cut-ins are imminent, so the driver should maintain a straight steering angle to stay centered in the current lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-15--09-01-03/17/preview.png,21.37430555555556,0.5,35-55 mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane freeway or highway section, likely an on-ramp or elevated interchange. Typical posted speeds in such environments range from 55–65 mph.  
+- Conditions: The pavement appears dry and visibility, while overcast, is adequate. No precipitation or surface water is observed. Under clear, dry conditions, the vehicle can safely travel near the posted speed limit but should remain vigilant for changing conditions.  
+- Other agents: Two cars are visible directly ahead in the same lane, one of which has its brake lights on. They may slow further for the upcoming merge or curve. To maintain a safe following distance and allow for smooth deceleration, the driver should moderate speed slightly below the typical limit until the behavior of those lead vehicles is clear.
+
+2. Steering Angle  
+- Lane curvature: The lane ahead is essentially straight with only a very gentle rightward alignment. No sharp bends are present.  
+- Obstacles: There are no stationary obstacles or debris in the immediate travel path. Guardrails line both sides of the roadway but do not encroach on the lane.  
+- Other agents: The lead vehicles remain centered in their lane and show no signs of lane changes or swerving. Given their steady trajectory, the driver can maintain a straight steering angle, correcting only minimally to stay centered.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/8/preview.png,28.166666666666664,-1.3,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane divided freeway. Typical posted speeds range from 55–65 mph in this type of environment.  
+- Weather and visibility are clear, with dry pavement and daylight. Under these good conditions, maintaining near the posted speed limit is appropriate.  
+- Other agents: several passenger vehicles are visible in adjacent lanes and ahead. They appear to be traveling at freeway speeds with stable spacing. No pedestrians or cyclists are present. Maintaining a consistent speed reduces the risk of sudden lane changes or braking by others, so traveling at the prevailing freeway speed (around 60 mph) is advisable.
+
+2. Steering Angle  
+- The freeway lanes appear straight with no significant curvature in the immediate view.  
+- No stationary or unexpected obstacles are present on the road surface.  
+- Other vehicles: cars are maintaining their lanes without encroaching. Staying centered in the current lane with minimal steering correction keeps a safe buffer from vehicles ahead and in adjacent lanes.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/32/preview.png,29.62638888888889,-0.1,55-65 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  • This is a multi-lane divided freeway (highway) environment. Typical speeds on such freeways range from 55 to 75 mph depending on local speed limits.  
+- What are the driving conditions?  
+  • The surface is dry, visibility is good, and there are no adverse weather conditions (no rain, fog, or snow). Under clear, dry conditions, maintaining a speed at or slightly below the posted limit is appropriate.  
+- What other agents are in the scene?  
+  • There is one vehicle directly ahead in the same lane at a safe following distance and another vehicle in the adjacent lane to the right. Neither appears to be merging aggressively or braking suddenly.  
+• How this impacts speed: maintain highway cruising speed (55–65 mph) to keep pace with traffic while preserving a safe following gap.  
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  • The lane is essentially straight with only a very gentle straight-ahead alignment.  
+- Are there any potential obstacles?  
+  • No debris or stationary obstacles are visible on the roadway.  
+- What other agents are in the scene?  
+  • The car ahead is centered in its lane and is not encroaching; the vehicle in the adjacent lane is keeping its lane as well.  
+• How this impacts steering: continue steering straight to remain centered in the current freeway lane.  
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-06--10-04-53/33/preview.png,33.1125,1.5,65+ mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane freeway. Typical speeds on this type of highway range from 65–75 mph.  
+- The weather is clear and the road surface is dry, allowing safe travel at or near the posted speed limit. No precipitation or low-traction conditions are present, so speed need not be reduced for environmental factors.  
+- Other agents in the scene include a few passenger cars at a distance in adjacent lanes and an on-ramp further ahead. These vehicles are maintaining highway speeds and are not encroaching on our lane. Given adequate spacing and no immediate merges into our lane, the driver can sustain freeway speed while monitoring for vehicles entering from the ramp and adjusting if necessary.
+
+2. Steering Angle  
+- The lane ahead is essentially straight with no significant left or right curvature.  
+- There are no stationary obstacles (debris, stalled vehicles) in the current lane. The concrete barrier and overpass supports are well outside the drivable area.  
+- Other vehicles are traveling smoothly in parallel lanes and are not drifting toward our path. No pedestrians, bicyclists, or sudden obstacles are present. The driver should maintain a straight steering angle and keep the vehicle centered in the lane.
+
+3. Predicted Discrete Action  
+Provide your final discrete predictions using ONLY the allowed values:
+
+Speed options: ""0-5 mph"", ""5-35 mph"", ""35-55 mph"", ""55-65 mph"", ""65+ mph""  
+Steering options: ""Left"", ""Straight"", ""Right""  
+
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-10--22-42-26/9/preview.png,28.660416666666663,0.7000000000000001,55-65 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane freeway at night. Typical speeds on such roads range from 55 to 70 mph.  
+- Conditions are clear and dry, with good visibility of lane markings and reflectors. Night driving suggests maintaining the speed limit but staying alert; there is no precipitation or fog to force a major speed reduction.  
+- Ahead and to the right there are other cars traveling in the same direction. They appear to be holding steady speed in their lanes. No pedestrians or bicyclists are present. To maintain a safe following distance, the driver should match the freeway flow, slowing only if the lead vehicles brake or merge suddenly.
+
+2. Steering Angle  
+- The lanes appear straight with no significant curvature. The dashed lines remain evenly spaced and parallel.  
+- There are no obstacles in the immediate travel path—no debris, stalled vehicles, or roadwork cones visible.  
+- Other vehicles remain in their lanes. A car on the right shoulder may re-enter if it’s stalled or broken down, so the driver should keep the wheel centered and be prepared to steer slightly left if that vehicle drifts back onto the road.
+
+3. Predicted Discrete Action  
+Use the typical freeway speed under clear conditions and the straight roadway geometry:  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/8/preview.png,25.24513888888889,-5.2,55-65 mph,Right,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. Typical speed limits on such roads range between 55–65 mph.  
+- The road surface appears dry and visibility, while reduced by darkness, is clear (no rain, fog, or snow). Under these conditions, it’s safe to maintain freeway speeds, but the driver should remain alert.  
+- Other vehicles are present ahead in neighboring lanes, all traveling in the same direction. They pose minimal risk of sudden pedestrian crossings but could change lanes or brake. Maintaining a steady speed of 55–65 mph with a safe following distance accommodates any minor speed adjustments they might make.
+
+2. Steering Angle  
+- The freeway lane curves gently to the right as indicated by the alignment of lane markings and the overhead bridge’s orientation.  
+- There are no immediate obstacles in the lane—no debris or stopped vehicles—so no evasive steering is required.  
+- Other vehicles are driving in adjacent lanes; should any drift unexpectedly, the driver can make a small corrective steering input to the right to remain centered in the lane and avoid encroaching on neighboring lanes.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/6/preview.png,23.428472222222226,-0.8999999999999999,35-55 mph,Straight,"1. Speed  
+- The vehicle is driving on a multilane freeway at night. Typical freeway speeds range from 55–75 mph, with many urban freeways posted at 65 mph.  
+- Conditions appear clear and dry, with only slight glare from overhead lights; there’s no rain, snow, or fog to force a significant speed reduction.  
+- No other vehicles, bikers, or pedestrians are visible in adjacent lanes or shoulders. With no slow-moving or merging traffic ahead or around, the driver can comfortably maintain a steady freeway speed near the posted limit.
+
+2. Steering Angle  
+- The lane markings and the horizon show a straight section of highway with no significant curvature.  
+- There are no obstacles (debris, stalled cars, construction cones) in the vehicle’s path.  
+- No pedestrians or cyclists are present, and no nearby vehicles appear to be drifting out of their lanes. The driver should keep a straight steering angle centered in the lane.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-55-39/5/preview.png,26.3375,-6.7,55-65 mph,Right,"1. Speed  
+- Environment: The vehicle is driving on a multi-lane divided freeway. Typical speed limits on such roads range from 55 to 70 mph, with 65 mph being common.  
+- Conditions: The pavement appears dry and visibility is good despite an overcast sky. There is no precipitation or fog that would necessitate a significant reduction in speed. Under these clear, dry conditions, maintaining a speed near the posted freeway limit is appropriate.  
+- Other agents: There are several passenger vehicles traveling in adjacent lanes and slightly ahead. None are braking hard or weaving aggressively. They appear to be holding steady speeds. Given the moderate traffic density and lack of sudden braking or merging maneuvers observed, the driver can maintain a steady freeway speed while remaining alert.
+
+2. Steering Angle  
+- Lane curvature: The lane markings show the freeway gently curving to the right in the distance. The curvature is mild, indicating only a slight steering input is needed.  
+- Obstacles: There are no stationary obstacles, roadwork cones, or debris visible on the roadway. The path ahead in the current lane is clear.  
+- Other agents: Vehicles in adjacent lanes are maintaining consistent lateral positions. None are encroaching on the driver’s lane. To stay centered in the lane and follow the roadway’s gentle right bend, a slight right steering adjustment is appropriate. The driver should continue to monitor side mirrors for any sudden lane changes by neighboring vehicles.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Right""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/12/preview.png,25.709027777777777,3.1,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speeds on such roads range from 55–65 mph depending on the posted limit and traffic flow.  
+- The weather appears overcast but the road surface looks dry. In clear, dry conditions on a freeway, maintaining the normal posted speed is appropriate.  
+- There are several other vehicles ahead (mid-sized sedans, SUVs) traveling in the same direction. None appear to be braking suddenly or merging aggressively. To maintain a safe following distance, the driver should travel at or just below freeway speed, adjusting if any vehicle ahead slows unexpectedly.
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with only a very slight leveling change under the overpass.  
+- There are no immediate obstacles (debris, stalled cars) in the driver’s lane. The concrete median is to the left, shoulder to the right.  
+- Other agents (cars in adjacent lanes) are holding steady. There is no apparent lane change or swerving behavior. The driver should keep the steering wheel centered to stay in the current lane.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--12-07-08/31/preview.png,31.332638888888887,-1.0,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speed limits on such roads range from 55–75 mph, with most traffic traveling around 65 mph.  
+- Weather and road conditions are clear and dry, with good visibility. In these optimal conditions, maintaining near the posted freeway speed is appropriate.  
+- Other vehicles are present but are well-spaced and travelling in adjacent lanes. No sudden braking or merging is evident. Given the steady flow, the driver should match freeway speeds while keeping a safe following distance.
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with only a very gentle, almost imperceptible, alignment. No significant curvature requires a pronounced steering adjustment.  
+- There are no obstacles (debris, stalled vehicles, construction cones) in the lane of travel.  
+- Surrounding vehicles remain in their lanes without erratic movements. As long as they maintain lane discipline, minimal steering corrections (“straight”) are sufficient.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-17-47/13/preview.png,9.984027777777778,15.7,5-35 mph,Left,"1. Speed  
+- The vehicle is on a multi-lane city street, likely in a commercial area in front of a dealership. Typical speeds here range from 25–35 mph.  
+- Conditions are clear and dry with good visibility. Under these ideal conditions, you could safely approach the upper end of the local limit, but traffic density and potential turns suggest a more moderate pace.  
+- Other agents include:  
+  • A light-colored SUV directly ahead in the same lane, which may slow to turn or park.  
+  • A black sedan in the right lane that appears to be edging toward a driveway or side street.  
+  • A pedestrian on the sidewalk near the dealership who could step off the curb.  
+  These factors call for maintaining a cautious following distance and readiness to brake, keeping speed in the 5–35 mph range.
+
+2. Steering Angle  
+- The lane markings curve gently to the left as the road bends. The current lane is not perfectly straight—it arcs slightly.  
+- There are no immediate obstacles in the vehicle’s path (no stalled cars or debris), but the SUV ahead may brake or change position. To stay centered in the lane and safely follow the curve, a slight left wheel input is appropriate.  
+- Other agents:  
+  • The SUV ahead could brake or swing wide into the turn lane.  
+  • The black sedan to the right might merge into our lane if it decides not to enter the side driveway.  
+  • The pedestrian on the curb could begin crossing unexpectedly.  
+  A gentle left steering correction keeps the vehicle aligned with the roadway while preserving space from the sedan on the right and reacting smoothly if the lead SUV slows.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Left""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/16/preview.png,0.0,1.6,0-5 mph,Straight,"1. Speed  
+- The vehicle is on a city street approaching or stopped at an intersection. Typical posted speeds in this environment are around 25–35 mph when the light is green and traffic is clear.  
+- Conditions appear clear and dry in daylight, which normally allows safe travel at the posted limit. However, because the vehicle is at a signal and traffic is stopped, its actual speed must be very low.  
+- Several vehicles are stopped directly ahead, and cross‐traffic may move when the light changes. Pedestrians could step into the crosswalk. These factors require the driver to maintain a crawl or full stop until the signal changes and the lane ahead is clear.
+
+2. Steering Angle  
+- The travel lane is straight with no visible curvature.  
+- There are no immediate obstacles in the vehicle’s lane; the cars ahead are aligned in the same lane.  
+- Parked vehicles line the right side of the street, but they are off the travel lane. Other drivers may change lanes once the light turns green, so the driver should keep the wheels centered and be ready to track straight ahead.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/8/preview.png,26.365277777777777,-0.2,55-65 mph,Straight,"1. Speed  
+- The vehicle is traveling on a multi-lane freeway. Typical speeds on such roads range from 55 to 65 mph (often posted at 65 mph).  
+- Weather is overcast but dry, with good visibility and no precipitation. Dry, clear conditions allow safe travel at or near the speed limit, without the need to reduce speed for traction.  
+- Other agents: there is a passenger car approximately 100 ft ahead in the same lane, and a few more vehicles farther out in the neighboring lanes. There’s also a merge sign on the right indicating potential merging traffic. None of these cars are braking sharply or encroaching on our lane at the moment, so a steady highway speed is appropriate, while remaining alert to any merging vehicles.
+
+2. Steering Angle  
+- The lane markings ahead are straight with no significant curvature.  
+- No static obstacles (debris, stalled vehicles) are visible in the vehicle’s path.  
+- Other agents: the car ahead is maintaining lane discipline, and merging traffic may appear from the right. The driver should hold the wheel steady in the center of the lane, ready to make minimal left/right adjustments if another vehicle merges unexpectedly.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/37/preview.png,32.64791666666667,-11.7,65+ mph,Right,"1. Speed  
+- The vehicle is on a multi-lane freeway (interstate highway), where typical speeds range from 65–75 mph.  
+- Weather is overcast but the road surface appears dry and visibility is good. Under these clear, dry conditions, the driver can safely maintain highway speeds but should remain alert for changing weather or traffic.  
+- There are several other vehicles in adjacent lanes and ahead. Some may slow or change lanes, especially near exit and entrance ramps. Maintaining a consistent high speed while leaving adequate following distance and scanning for merging traffic is appropriate.
+
+2. Steering Angle  
+- The lane gently curves to the right. The dashed lane markings bend slightly toward the right, indicating a gradual rightward alignment of the road.  
+- There are no immediate obstacles in the vehicle’s lane, but a concrete median lies to the left and a shoulder to the right.  
+- Other vehicles may merge from on-ramps on the right or shift between lanes. A slight rightward steering input keeps the vehicle centered in its lane while providing room to adjust for merging cars.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/21/preview.png,28.25625,6.3,55-65 mph,Left,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speeds on such roads range from 55 to 70 mph depending on local limits and traffic flow.  
+- The weather appears overcast but dry with good visibility and dry pavement. Under these clear conditions the driver can safely maintain freeway speeds, adjusting for traffic.  
+- There are several cars ahead and to the left in adjacent lanes. They appear to be traveling at a steady pace without braking abruptly. Maintaining a safe following distance means matching general traffic speed (around 60 mph) to avoid sudden deceleration or tailgating.
+
+2. Steering Angle  
+- The freeway lane curves gently to the left. It is not a sharp bend but requires a slight left wheel correction to stay centered.  
+- No immediate obstacles (debris, stalled vehicles) are visible in the lane. The only fixed barrier is the median wall to the left, which does not intrude on the travel lane.  
+- Other vehicles are in neighboring lanes but not merging aggressively. They are unlikely to cut in at high speed, so a steady, slight left steering maintains lane position and accommodates the road’s curvature without over-correction.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Left""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-15--09-01-03/23/preview.png,27.794444444444444,-4.3,55-65 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  The vehicle is on a multi-lane freeway. Typical speeds in this environment range from 55 to 70 mph, depending on the posted limit.  
+- What are the driving conditions?  
+  The road is dry and visibility is good though the sky is overcast. There is no rain, snow, or fog. Under these clear but cloudy conditions, the vehicle can travel at or just below the posted freeway speed.  
+- What other agents are in the scene?  
+  There is a white passenger car directly ahead in the same lane and a blue car in the left lane slightly ahead. Those vehicles may maintain speed, slow down for traffic, or change lanes. To preserve a safe following distance, the driver should match freeway speed but be ready to decelerate if the lead vehicle slows.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  The lane is straight with no significant curves.  
+- Are there any potential obstacles?  
+  There are no visible debris or objects in the lane. The lane markings are clear.  
+- What other agents are in the scene?  
+  The two nearby vehicles are traveling straight. There’s no indication they’ll move into this lane abruptly. The driver should maintain a straight wheel position and monitor adjacent lanes for lane changes.
+
+3. Predicted Discrete Action  
+Based on freeway driving at posted speed with no need for lateral correction:
+
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/14/preview.png,32.12361111111111,-4.0,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane limited-access freeway at night. Typical speeds on such freeways range from 55 to 75 mph, depending on local limits.  
+- Conditions appear clear and dry, with no rain, snow, or fog. These conditions support maintaining normal freeway speeds, though nighttime requires attentive driving and proper headlight use.  
+- Other agents: a few distant vehicles are visible well ahead in neighboring lanes. They may maintain or change speed, but none are braking sharply or merging immediately. The driver should maintain a safe following distance and be prepared to adjust speed if any vehicle ahead slows unexpectedly.
+
+2. Steering Angle  
+- The lane markings ahead are straight with no visible curvature.  
+- There are no obstacles (debris, stalled cars, pedestrians) in the immediate lane.  
+- Other agents (distant vehicles) pose minimal lateral risk; none are encroaching into the driver’s lane. The driver should keep the wheel centered to remain within the lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/30/preview.png,0.0,1.6,0-5 mph,Straight,"1. Speed  
+- The vehicle is stopped at a signalized intersection on city streets. Typical speeds approaching such intersections in urban areas range from 25–35 mph, but at the stop line the speed is effectively zero.  
+- Conditions are dry and overcast. There is no precipitation, so grip is normal; however, approaching a red light still requires a full stop. The overcast light may slightly reduce visibility, reinforcing the need to remain stopped until the light changes.  
+- Other agents: several vehicles are queued ahead and to the left waiting to proceed, and a gray compact car is executing a left turn across the intersection. No pedestrians are visible in the crosswalk but could emerge once the light changes. To avoid conflicts, the driver should maintain a stationary position (0–5 mph) until it is safe and legal to move.
+
+2. Steering Angle  
+- The approach lane is straight with no curvature; lane markings run perpendicular to the driver.  
+- No static obstacles are blocking the lane. The oncoming gray car turning left occupies part of the intersection but will clear once the signal phases change.  
+- Other agents may complete their turns or begin accelerating straight through when the light turns green. The driver’s steering wheel should remain centered to continue straight once movement is permitted.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--12-07-08/37/preview.png,9.45763888888889,2.0,5-35 mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane urban freeway. Under free-flow conditions, posted limits are typically 55–65 mph.  
+- Driving conditions: It is daytime with dry pavement and clear visibility. These conditions allow for cruising near the speed limit if traffic permits.  
+- Other agents: Several cars and a van are traveling ahead and to the sides at moderate spacing. They may slow or change lanes without much warning. To maintain a safe following distance and allow for other vehicles merging or braking, the driver should reduce speed below the maximum freeway limit.
+
+2. Steering Angle  
+- Lane curvature: The current travel lane is essentially straight with no significant left or right bend.  
+- Obstacles: There are no stationary obstacles or debris visible on the roadway.  
+- Other agents: Vehicles in adjacent lanes may drift or merge. Keeping the steering wheel aligned straight helps maintain lane position and provides room to react if another vehicle encroaches.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/22/preview.png,22.465972222222227,3.5,35-55 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway/highway. Typical speeds in this environment range from 55 to 75 mph.  
+- The weather and road conditions are clear and dry with good visibility. Under these conditions, the driver can safely maintain a speed near the posted limit but must still adjust for traffic.  
+- Other agents include a passenger car directly ahead in the same lane and moderately dense traffic in the left lanes. The lead car might slow or change lanes, so the driver should maintain a safe following distance and be prepared to decelerate.
+
+2. Steering Angle  
+- The lane is largely straight with only a gentle leftward curvature visible in the distance.  
+- There are no static obstacles in the immediate path; the only potential impediment is the lead vehicle. The driver should keep the vehicle centered in the lane, making only minimal steering adjustments.  
+- Other agents (cars in adjacent lanes) may merge or drift; the driver should monitor mirrors and maintain lane position, steering “Straight” with small corrections as needed.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/11/preview.png,27.222916666666663,-5.6,55-65 mph,Right,"1. Speed  
+- Where is the vehicle driving?  
+  The vehicle is on a multi-lane freeway with a concrete median barrier on the left and several lanes of traffic. Typical speeds on such freeways range from 55 to 70 mph, depending on the posted limit.  
+- What are the driving conditions?  
+  Weather and road surface appear clear and dry, with good visibility under daylight. These conditions allow travel near the legal speed limit, assuming no construction or unusual hazards.  
+- What other agents are in the scene?  
+  There are multiple passenger cars traveling ahead and to the right. None are braking sharply or encroaching on our lane, but maintaining a safe following distance is prudent. No pedestrians or bicyclists are present. The driver should match freeway speed (around 60 mph) while monitoring for any sudden lane changes or slowing vehicles ahead.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  The roadway is mostly straight with a very gentle rightward sweep visible in the distant horizon.  
+- Are there any potential obstacles in the driver’s way?  
+  The lanes are clear of debris or stalled vehicles. No obstacles necessitate an evasive maneuver; only centering within the lane is required.  
+- What other agents are in the scene?  
+  Adjacent vehicles are maintaining their lanes. No one is veering toward the driver’s path. The driver should maintain lane discipline and make a minimal rightward steering adjustment to follow the slight curvature.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/20/preview.png,28.4375,-0.3,55-65 mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane freeway. Typical speeds on such roads range from 55–65 mph.  
+- Conditions: It appears overcast but dry, with good visibility and no precipitation. These clear, dry conditions support maintaining normal freeway speeds.  
+- Other agents: Several vehicles are traveling in adjacent lanes at similar speeds. They may change lanes or adjust speed, but there are no slow-moving or vulnerable road users (pedestrians, cyclists) present. A safe following distance should be maintained, but no unusual hazards demand reducing below the speed limit.
+
+2. Steering Angle  
+- Lane curvature: The freeway ahead is essentially straight with only a very gentle alignment.  
+- Obstacles: There are no visible obstacles on the roadway itself.  
+- Other agents: Vehicles in neighboring lanes could drift or merge; the driver should keep the vehicle centered in its lane and make only minimal steering corrections to remain straight and avoid sudden lane intrusions.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/11/preview.png,30.00763888888889,-0.3,65+ mph,Straight,"1. Speed  
+- The vehicle is on a multi‐lane freeway (urban interstate) with overhead guide signs for routes to San Francisco and Pacifica. Typical speeds in this environment range from about 55–75 mph under normal flow.  
+- Weather and road conditions appear clear and dry, with good visibility and no precipitation. These conditions support maintaining the normal freeway speed limit but do not warrant reduction for traction or sight distance.  
+- Nearby agents include a white sedan in the adjacent lane on the left, a truck on the right shoulder, and several vehicles further ahead in the center lanes. None are braking abruptly or weaving; they all appear to be traveling steadily. This stable traffic flow allows the driver to maintain freeway speed without sudden deceleration.  
+
+2. Steering Angle  
+- The freeway lane is essentially straight with only a very gentle curvature. There are no off‐ramp diverges or sharp bends in the immediate view.  
+- There are no obstacles (debris, stalled vehicles, pedestrians) in the lane. The roadway surface is even and free of hazards.  
+- Other vehicles are holding their lanes predictably. No one is encroaching or indicating a lane change into the ego vehicle’s path. The driver should therefore keep the steering wheel centered, making only fine adjustments to stay within the lane markings.  
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-10--22-42-26/8/preview.png,28.40763888888889,-1.1,55-65 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  • The scene shows a multi-lane divided freeway at night. Freeway speed limits typically range from 55–65 mph in suburban or urban areas.  
+- What are the driving conditions?  
+  • It is clear and dry with good visibility from streetlights and headlights. No precipitation or ice is present. Under these conditions, the vehicle can maintain normal freeway speeds, adjusting only for traffic flow.  
+- What other agents are in the scene?  
+  • Several cars and a bus are traveling ahead and to the right in adjacent lanes. They appear to be moving steadily. None are braking sharply or weaving. The driver should maintain a safe following distance, be ready to slow if the lead vehicles brake, but otherwise can travel at the prevailing freeway speed.  
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  • The lane is straight with no significant left or right bend visible. Lane markings converge straight ahead.  
+- Are there any potential obstacles?  
+  • No obstacles (debris, stalled vehicles) are in the current lane. Guardrails and concrete barriers line the left side, but they do not require steering adjustments when centered in the lane.  
+- What other agents are in the scene?  
+  • The bus and cars in adjacent lanes may change lanes or slow down. However, their positions don’t currently encroach on our lane. The driver should keep the steering wheel steady and monitor for any sudden lane changes by nearby vehicles.  
+
+3. Predicted Discrete Action  
+Provide your final discrete predictions using ONLY the allowed values:
+
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-06--10-04-53/29/preview.png,27.40625,-0.8999999999999999,55-65 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane freeway, where typical speeds range from 55–65 mph.  
+- Conditions are clear, dry, and sunny. There are no visibility or traction issues, so the vehicle can safely travel at normal freeway speeds.  
+- Other vehicles are moderately spaced in adjacent lanes and 2–3 car lengths ahead in the same lane. They may merge or change lanes near upcoming exits, but current gaps allow maintaining highway speed while keeping a safe following distance.  
+
+2. Steering Angle  
+- The lane ahead is straight with no significant curvature.  
+- There are no static or dynamic obstacles directly in the lane (no debris, parked vehicles, or sudden obstructions).  
+- Other vehicles are staying in their lanes with no immediate encroachment. The driver should maintain lane centering with minimal steering input.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--12-07-08/38/preview.png,0.0,-8.8,0-5 mph,Right,"1. Speed  
+- The vehicle is on a multi-lane city street (not a freeway or rural road). Typical posted limits here would be in the 25–35 mph range.  
+- Weather is overcast but dry with good visibility; there is no precipitation to require a further speed reduction.  
+- Traffic is heavily congested – the red Corolla directly ahead, a dump truck further up, a UPS truck in the right lane, and several other passenger vehicles are essentially stopped or creeping forward. They may brake suddenly or change lanes to bypass blockages. To maintain safety and avoid rear-ending, the driver should be moving at a crawl.  
+
+2. Steering Angle  
+- The lane in view has a very gentle rightward alignment (the curb and rows of parked cars on the right subtly suggest the road bows that way).  
+- There are no immediate debris or construction obstacles in the lane, but the white van encroaching from the right lane and the parked cars along the curb narrow the available space.  
+- Adjacent vehicles (especially the UPS van and the dark sedan in the right-hand lane) could drift slightly, so the driver should hold a slight rightward steering bias to stay centered in the lane and maximise buffer from oncoming lane changes.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--10-32-01/32/preview.png,26.053472222222226,0.1,55-65 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane freeway (highway). Typical speeds in this environment range from 55–70 mph.  
+- The road surface appears damp (wiper in view, overcast sky). Wet conditions warrant a modest reduction in speed and increased following distance.  
+- There are two vehicles visible in the same lane ahead, traveling at highway speed. They could slow unexpectedly or change lanes. To maintain a safe following gap, the driver should match the freeway flow but remain alert, suggesting a speed bracket of 55–65 mph.
+
+2. Steering Angle  
+- The freeway lane is essentially straight with no significant curvature.  
+- There are no immediate obstacles (debris, stalled cars) in the lane.  
+- The two vehicles ahead are centered in their lanes and not signaling a lane change; no evasive steering is needed. A straight steering alignment keeps the car centered.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--20-41-07/7/preview.png,19.759722222222223,-2.9,35-55 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  The scene shows a multi-lane, divided highway (freeway) at night. On such roadways, posted limits are typically between 65–75 mph.  
+- What are the driving conditions?  
+  It is dark but dry with no rain or snow visible. Night driving reduces visibility and reaction time, so a slightly lower pace than the posted limit is prudent.  
+- What other agents are in the scene?  
+  There are a few passenger vehicles ahead in the center and right lanes, maintaining moderate spacing. No pedestrians or cyclists are present. The cars ahead could decelerate or change lanes, so the driver should keep a safe following distance by moderating speed.  
+
+2. Steering Angle  
+- Lane curvature  
+  The lane markings appear nearly straight with only a very gentle bend, indicating no significant curve.  
+- Potential obstacles  
+  There are no stationary hazards or debris in the lane.  
+- Other agents  
+  The vehicles ahead are traveling straight at a consistent speed. No sudden lateral movements are expected. The driver should maintain a centered trajectory in the lane.  
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/8/preview.png,23.34583333333334,-0.8999999999999999,35-55 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane urban expressway or city highway. The posted speed limit sign visible on the right reads 45 mph, and typical operating speeds in this environment range from 35–55 mph depending on traffic flow.  
+- Weather and road conditions are clear and dry with good visibility; there is no rain, fog, or snow. Under these conditions, the driver can safely travel near the posted limit but should remain alert and maintain a safe following distance.  
+- Other agents: several passenger cars and a pickup truck are in adjacent lanes traveling in the same direction. These vehicles may slow, accelerate, or change lanes. Maintaining a moderate speed (slightly below or at the limit) allows sufficient reaction time for any sudden braking or lateral movement.  
+
+2. Steering Angle  
+- The lane ahead is essentially straight with no significant curvature. Lane markers run parallel without noticeable bend.  
+- Potential obstacles: concrete median barrier on the left and dense trees or foliage on the right shoulder. No debris or construction cones are visible intruding into the lane.  
+- Other agents: vehicles to the left and right may drift or merge; keeping the steering centered and smooth ensures the vehicle remains well within its lane and avoids encroaching on neighboring traffic.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/36/preview.png,29.922916666666666,-4.4,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane divided freeway. Typical speed limits on this type of highway range from 55 to 70 mph, with most areas posted around 65 mph.  
+- The weather appears overcast with light fog or low clouds, but the road surface looks dry and free of ice, snow, or standing water. While reduced visibility might normally suggest a modest speed reduction, conditions here are not severe enough to warrant dropping below the posted freeway speed.  
+- There are several other vehicles in adjacent lanes and a handful of cars in the same lane at a reasonable following distance. None appear to be braking sharply or merging unpredictably. Maintaining a steady freeway pace (within the 55–65 mph range) keeps up with traffic flow without tailgating or impeding faster-moving vehicles.
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with only a very gentle grade and no significant curvature.  
+- There are no visible obstacles (debris, stalled vehicles, construction barriers) in the vehicle’s path.  
+- Other vehicles are traveling parallel in neighboring lanes at stable speeds and trajectories. No one is signaling an imminent lane change into this lane. Therefore, minimal steering correction is required to stay centered; the wheel should remain virtually straight.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/5/preview.png,20.80694444444444,-0.8999999999999999,35-55 mph,Straight,"1. Speed  
+- The vehicle appears to be on a multi-lane city street or urban arterial (signalized intersection ahead). Typical speeds in this environment range from about 30–45 mph (35–55 km/h).  
+- It is nighttime but the roadway is dry and there is no rain or snow. Reduced visibility at night suggests the driver should stay within or slightly below the posted urban speed limit to allow extra reaction time, so maintaining around 35–55 mph is appropriate.  
+- There are no other vehicles, cyclists, or pedestrians visible in the immediate lanes. However, traffic signals ahead could change, and cross-traffic or pedestrians may enter the intersection when the light changes. This potential requires the driver to be prepared to decelerate, so a moderate speed in the 35–55 mph range is prudent.
+
+2. Steering Angle  
+- The lane ahead is straight. There is no noticeable curvature or turn in the visible road segment.  
+- There are no obstacles (parked cars, debris) in the driver’s current lane.  
+- No other moving agents are in the immediate vicinity that would require evasive steering (no pedestrians stepping off the curb, no side-street vehicles encroaching). The driver should keep the wheel centered to stay in their lane, ready to make small adjustments if the lane markings shift or if the road surface varies.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/13/preview.png,6.561805555555556,2.3,5-35 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane urban arterial or city street, not a high-speed freeway. Typical posted speeds in this environment are 25–35 mph.  
+- The weather appears overcast but the pavement is dry with good visibility. Under clear or overcast dry conditions, the driver can maintain close to the normal speed limit but should remain alert for sudden braking in traffic.  
+- There are several other vehicles in adjacent lanes and directly ahead (a mid-sized SUV immediately in front, plus cars in the left and right lanes). These vehicles may slow or change lanes at any time. To maintain a safe following distance and reaction time, the driver should travel below the upper end of the speed limit, in the lower 25–35 mph range.
+
+2. Steering Angle  
+- The lane is essentially straight with no noticeable curvature. Lane markings are visible, and the road ahead does not bend left or right sharply.  
+- There are no immediate obstacles (debris or pedestrians) intruding into the lane. The shoulders have parked vehicles and a grass verge but do not encroach on the travel lane.  
+- Other agents could merge from the right lane or slow suddenly in front. Maintaining a centered, straight steering position allows the driver to react smoothly with minimal steering input if a lane change or evasive maneuver becomes necessary.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/31/preview.png,28.24652777777778,-3.5,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical posted speeds on this type of freeway are in the 55–70 mph range.  
+- The road surface appears dry and the weather is overcast but not raining or snowing. Dry, clear conditions support traveling at or near the posted freeway speed, assuming good visibility.  
+- There are several other cars in adjacent lanes and ahead. They appear to be moving steadily with no sudden braking. To maintain a safe following distance, the driver should match the flow of traffic (around 60 mph) and be prepared to adjust if a lead vehicle slows or changes lanes.
+
+2. Steering Angle  
+- The freeway lanes in view are essentially straight with no significant left or right curvature.  
+- There are no visible obstacles (debris, stopped vehicles) in the current lane.  
+- Other vehicles could merge or drift slightly within their lanes. The driver should keep the steering centered (“Straight”) and make only minimal adjustments to stay properly in the lane and maintain clearance from neighboring vehicles.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-55-39/9/preview.png,9.4375,5.4,5-35 mph,Left,"1. Speed  
+- The vehicle is on a multi-lane city street, not a freeway. Typical speeds here are in the 25–35 mph range.  
+- The weather is clear and dry, so there’s no need to slow for traction, but city speed limits still apply.  
+- Other road users include the black sedan directly ahead, a bus further up, and a white wagon in the adjacent lane. The bus may brake for a signal or stop to pick up passengers, and the sedan could slow unexpectedly. To maintain a safe following distance and be ready for sudden stops, the vehicle should proceed at a moderate city-street speed rather than at the maximum limit.  
+
+2. Steering Angle  
+- The lane markings ahead show a very gentle leftward alignment of the road rather than a perfectly straight line.  
+- Parked cars on the right and a sidewalk with trees leave no room for drift; the driver must stay centered.  
+- The white wagon in the left lane may drift toward our lane if it misjudges space, so a subtle left correction keeps the car away from that potential intrusion and maintains lane centering.  
+
+3. Predicted Discrete Action  
+{  
+    ""speed"": ""5-35 mph"",  
+    ""steering"": ""Left""  
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/7/preview.png,26.69930555555555,0.1,55-65 mph,Straight,"1. Speed  
+- Environment: The vehicle is traveling on a multi-lane freeway (urban interstate) with overpasses visible. Typical speed limits in this setting range from 55 to 65 mph.  
+- Conditions: The road surface is dry and visibility is good despite overcast skies. There is no precipitation or reduced traction, so there is no need to significantly reduce speed below the posted limit.  
+- Other agents: Several passenger cars and an SUV are traveling in adjacent lanes at similar speeds. There are no slow-moving vehicles directly ahead, no pedestrians, and no cyclists. Maintaining a steady speed in the 55–65 mph range allows safe following distances and smooth traffic flow.
+
+2. Steering Angle  
+- Lane curvature: The travel lane ahead is essentially straight with no significant left or right bend.  
+- Obstacles: There are no debris, stalled vehicles, or construction barrels in the lane.  
+- Other agents: Surrounding vehicles appear stable in their lanes with no signs of imminent lane changes or abrupt maneuvers. A minimal steering correction to stay centered is sufficient.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-55-39/6/preview.png,27.65625,7.7,55-65 mph,Left,"1. Speed  
+- Environment: The vehicle is on a multi-lane freeway (interstate) with an overpass ahead. Typical posted speeds in this setting range from 55 to 65 mph.  
+- Conditions: The road surface appears dry and visibility is good, despite an overcast sky. There is no rain, snow, or fog to warrant a speed reduction below normal highway limits.  
+- Other agents: Several cars occupy adjacent lanes at roughly the same forward distance. No slow-moving vehicles or pedestrians are present. Cars may change lanes or adjust speed, so maintaining a safe following distance at highway speed (around 60 mph) is appropriate.
+
+2. Steering Angle  
+- Lane curvature: The freeway lane is nearly straight with a very gentle leftward alignment under the overpass. A slight left steering input helps keep the vehicle centered.  
+- Obstacles: There are no immediate debris or static obstacles in the travel lane. Overpass columns and the concrete barrier are well off to the sides.  
+- Other agents: Vehicles to the left and right may drift or merge. A small leftward steering adjustment maintains lane discipline and avoids encroaching on adjacent traffic.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Left""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--10-32-01/31/preview.png,26.493055555555557,3.2,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi‐lane freeway. Typical speeds on such roads range from 55 to 65 mph.  
+- Conditions are overcast but dry with good visibility and no precipitation. Dry pavement and clear sightlines support freeway speeds, though slight reduction for safety in low‐contrast light may be prudent.  
+- Other agents: a vehicle directly ahead in the same lane at a safe following distance, plus cars in adjacent lanes. The lead vehicle could brake or change lanes, so maintaining a moderate headway and vigilance is important. This supports cruising at around 55–65 mph with readiness to adjust if the car ahead slows.
+
+2. Steering Angle  
+- The lane ahead is straight with no noticeable curvature.  
+- There are no obstacles on the roadway surface.  
+- Other agents: vehicles in neighboring lanes may drift or merge. Keeping the steering wheel centered and maintaining lane position allows room to react to any unexpected lane changes by others.
+
+3. Predicted Discrete Action  
+Provide your final discrete predictions using ONLY the allowed values:
+
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/9/preview.png,31.41041666666667,0.0,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. Typical speeds on this type of roadway are in the 55–75 mph range depending on the posted limit.  
+- Conditions appear clear and dry with good visibility of lane markings. In these conditions a driver can safely travel near the speed limit, though nighttime driving warrants maintaining alertness and a safe following gap.  
+- The only other agents are distant vehicles visible by their taillights far ahead. They are not merging or slowing abruptly in the immediate vicinity. Maintaining a highway cruising speed while keeping a safe buffer is appropriate.  
+
+2. Steering Angle  
+- The lane ahead is essentially straight with no significant curvature.  
+- There are no obstacles on the roadway or debris that require evasive steering.  
+- The distant vehicles remain centered in their own lanes and show no signs of drifting. No steering corrections beyond staying centered in the lane are needed.  
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-10--22-42-26/6/preview.png,23.54791666666667,1.1,35-55 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. Typical speeds on this type of limited-access highway range from 55–75 mph under normal conditions.  
+- The conditions appear clear and dry (no rain, snow, or fog), but nighttime visibility is reduced. This warrants a modest reduction in speed relative to daytime limits to allow for increased reaction time.  
+- Other agents in the scene include two vehicles traveling ahead in the same lane and sporadic traffic in adjacent lanes. These lead cars may brake or change lanes unexpectedly, so maintaining a safe following distance requires moderating speed.  
+
+2. Steering Angle  
+- The lanes ahead are straight with no significant curvature.  
+- There are no visible static obstacles (debris, construction cones) on the roadway requiring a deviation.  
+- Other vehicles in adjacent lanes might merge or drift slightly; however, with clear lane markings and sufficient space, the appropriate steering input is to keep the wheels aligned straight ahead, ready to make slight adjustments if neighboring cars encroach.  
+
+3. Predicted Discrete Action  
+{  
+    ""speed"": ""35-55 mph"",  
+    ""steering"": ""Straight""  
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/15/preview.png,10.47013888888889,0.5,5-35 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane, signalized urban arterial (city street) rather than a freeway. Posted speeds here are typically around 35 mph.  
+- The weather is overcast but the pavement appears dry and clear. Under these conditions, one can legally and safely drive at the posted limit, but must remain vigilant at intersections.  
+- There are several other vehicles ahead (including a yellow hatchback and a white minivan), stopped or moving slowly through the green light, plus parked cars on the right shoulder. No pedestrians are visible in the crosswalk. The driver should match the flow of traffic through the intersection and be prepared to slow if the lead cars brake or if cross-traffic begins turning, keeping speed in the city range (~5–35 mph).
+
+2. Steering Angle  
+- The lane ahead is essentially straight with no significant curvature.  
+- There are no obstacles intruding into the lane. The median divider is to the left and parked cars are well off the travel lane on the right.  
+- Other vehicles remain in their lanes. No sudden lane changes or pedestrians are encroaching. The driver should maintain a straight steering angle, tracking the center of the lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/13/preview.png,26.22152777777778,-1.8,55-65 mph,Straight,"1. Speed  
+- Environment: The vehicle is driving on a multi-lane freeway under an overpass. Typical speed limits on this type of roadway range from 55–65 mph.  
+- Conditions: The road surface appears dry and the sky is overcast but visibility is good. There is no rain, snow, or fog that would necessitate significant speed reduction. Under clear, dry conditions, traveling near the posted limit (55–65 mph) is appropriate.  
+- Other agents: Several passenger cars are visible in adjacent lanes and ahead. They appear to be traveling at freeway speeds with no sudden braking or weaving behavior. Maintaining a 2–3 second following distance at 55–65 mph keeps a safe buffer if any vehicle decelerates.  
+
+2. Steering Angle  
+- Lane curvature: The current travel lane is essentially straight with no noticeable left or right bend.  
+- Obstacles: There are no immediate obstacles (debris, stalled vehicles) in the lane. The overpass structure overhead does not encroach on the lane footprint.  
+- Other agents: Vehicles in neighboring lanes are parallel and stable. No pedestrians, cyclists, or unexpected lane incursions are present. Remaining centered in the lane with no steering adjustment is appropriate.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/16/preview.png,24.057638888888892,-3.4,35-55 mph,Straight,"1. Speed  
+- Location and typical speed: The scene is a multi-lane divided urban freeway or expressway. Typical speeds here range from 45–65 mph under normal conditions.  
+- Driving conditions: The pavement is dry and the sky is overcast but visibility is good. No rain or snow is present, so there’s no need to slow for low-traction conditions.  
+- Other agents: Several passenger cars are traveling in adjacent lanes and ahead. They appear to be moving at a steady pace with safe following distances. No pedestrians, cyclists, or sudden merging traffic is visible at this moment. The driver should maintain a speed that keeps pace with traffic while preserving a safe buffer—around 35–55 mph in this lightly congested urban freeway section.
+
+2. Steering Angle  
+- Lane curvature: The roadway ahead is essentially straight with only a very gentle grade. There are no sharp bends requiring significant steering input.  
+- Potential obstacles: The lanes are clear of debris or stalled vehicles. There is a small pothole visible in the leftmost lane far ahead, but it is not in the vehicle’s current path.  
+- Other agents: Adjacent vehicles are holding their lanes predictably. No sudden lane changes or merging vehicles are evident. The driver should maintain a centered trajectory in the current lane with minimal steering corrections.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/3/preview.png,19.15625,-3.1,35-55 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  • The scene is a city street or urban arterial, not a highway or freeway. There is a painted pedestrian crossing and street lighting typical of a residential/urban environment.  
+  • Typical posted speeds in this environment range from 30–45 mph.  
+
+- What are the driving conditions?  
+  • It is nighttime and appears dry (no visible rain or snow on the road surface).  
+  • Night driving reduces visibility, so the driver should be vigilant and maintain a safe speed that allows for timely reaction to unexpected events.  
+
+- What other agents are in the scene?  
+  • There are multiple vehicles ahead in the same lane and in the adjacent through lane, moving steadily.  
+  • A vehicle is turning right from the cross street, and there is a marked pedestrian crossing just ahead (no pedestrians currently in it, but one could step off the curb).  
+  • Potential actions: the lead cars might brake unexpectedly, the turning vehicle could merge, and a pedestrian could step onto the crossing.  
+  • Impact on speed: maintain a moderate urban speed that allows for quick deceleration or stop (around 35–55 mph, leaning toward the lower end given the crossing).
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  • The lane is straight; there is no visible left or right bend.  
+
+- Are there any potential obstacles in the driver’s way?  
+  • No static obstacles directly in the lane. The zebra crossing stripes are on the road, but not an obstruction—rather a cue to watch for pedestrians.  
+  • No road debris or parked cars encroaching.  
+
+- What other agents are in the scene?  
+  • The vehicles ahead are traveling straight; the turning car to the right may swing into the lane but is currently completing its turn.  
+  • No pedestrians are on the crossing, but one could approach.  
+  • Impact on steering: keep the wheel aligned to stay centered in the straight lane, ready to make small adjustments if another vehicle merges or if a pedestrian steps out.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/10/preview.png,27.83194444444445,-7.3,55-65 mph,Right,"1. Speed  
+- Where is the vehicle driving?  
+  • The scene is a multi-lane freeway or highway at night. Typical posted limits in such environments range from 55–75 mph.  
+- What are the driving conditions?  
+  • It appears dry and clear but with reduced visibility due to darkness. Headlights illuminate the road, but caution is prudent. Reduced contrast encourages maintaining a safe, moderate freeway speed rather than pushing the upper limit.  
+- What other agents are in the scene?  
+  • Two vehicles are visible several car-lengths ahead in the same lane. Their brake lights are off, indicating steady speed. There are no pedestrians, cyclists, or erratic vehicles. The driver should match the general flow (around the speed limit) while preserving a safe following distance, ready to decelerate if the lead cars slow.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  • The freeway gently curves to the right. Lane markings show a gradual rightward bend.  
+- Are there any potential obstacles?  
+  • No obstacles (debris, stopped cars) are present. The lane is clear and well-marked.  
+- What other agents are in the scene?  
+  • The two cars ahead remain centered in their lanes and are not changing lanes. No sudden swerves or merges are indicated. The driver should apply a slight right steering adjustment to follow the curve smoothly and remain centered in the lane.
+
+3. Predicted Discrete Action  
+Provide your final discrete predictions using ONLY the allowed values.
+
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--12-07-08/28/preview.png,31.272916666666667,0.3,65+ mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane divided freeway. Typical speeds on such freeways range from 55 to 75 mph, with many sections posted at 65 mph or higher.  
+- Driving conditions: It is clear and dry, with good visibility and no precipitation or standing water. These ideal conditions support maintaining posted freeway speeds.  
+- Other agents: Traffic is very light. A single white van is visible in the right lane ahead at a safe distance. There are no pedestrians, cyclists, or merging vehicles in close proximity. The van appears to be holding a steady speed, so there is no need to slow for unexpected braking or lane changes.  
+
+Given the freeway setting, dry conditions, and light traffic, maintaining a speed above 65 mph is appropriate.  
+
+2. Steering Angle  
+- Lane curvature: The roadway is essentially straight with no noticeable left or right curvature.  
+- Potential obstacles: The lanes ahead are clear; there are no debris, stalled vehicles, or construction cones in the path.  
+- Other agents: The white van in the right lane is not encroaching, and there are no vehicles cutting across lanes. No evasive steering is required.  
+
+Given the straight alignment and absence of obstacles or erratic agents, a straight steering angle is appropriate.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--12-07-08/32/preview.png,29.272222222222226,0.2,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane divided freeway. Typical posted speeds on such freeways range from 55 to 65 mph.  
+- Conditions are clear and dry with good visibility and daylight. With no precipitation or low-traction surface, the vehicle can safely travel at normal freeway speeds.  
+- Several other vehicles are present in adjacent lanes and ahead. They are maintaining freeway speeds but may slow for merging traffic or obstacles. The driver should match the general traffic flow (around 60 mph) while leaving sufficient following distance in case any vehicle ahead brakes or drifts into the lane.
+
+2. Steering Angle  
+- The freeway segment is essentially straight with no significant left or right curvature visible.  
+- There are no stationary obstacles in the lane; the pavement is clear and lane markings are visible.  
+- Other vehicles in adjacent lanes could swerve or merge unpredictably. Maintaining a straight heading in the center of the lane, with readiness to make minor corrective inputs, minimizes collision risk and keeps proper lane positioning.
+
+3. Predicted Discrete Action  
+Use the typical freeway speed and straight steering:  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/29/preview.png,0.0,2.2,0-5 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  The vehicle is on a multi-lane urban city street approaching a signalized intersection. Typical speeds on such roads range from 25–35 mph under normal traffic flow.  
+- What are the driving conditions?  
+  The weather appears overcast but dry, with good visibility and no precipitation. In these conditions, drivers can maintain posted speeds but should be prepared for stop-and-go traffic near intersections.  
+- What other agents are in the scene?  
+  Several vehicles are stopped or slowing ahead in each lane, waiting at a red light. There may be pedestrians crossing once the signal changes. Because the traffic is stopped and the signal is red, the driver should hold a very low speed (creep or full stop) to avoid collisions and to comply with the traffic control.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  The lane is straight, continuing directly toward the intersection with no visible bend.  
+- Are there any potential obstacles in the driver’s way?  
+  The primary obstacles are the vehicles stopped directly ahead. No lateral obstacles are present within the lane. Pedestrians or turning vehicles at the intersection could emerge once the light changes.  
+- What other agents are in the scene?  
+  Vehicles in adjacent lanes are also stopped; some may begin turning or pulling forward. Keeping the steering wheel centered ensures the car remains within its lane and is ready to go straight when the signal changes.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/12/preview.png,35.76736111111111,-0.8999999999999999,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. Typical speeds on such freeways range from 55–75 mph depending on the posted limit, traffic, and conditions.  
+- The roadway appears dry and clear, with no rain, snow, or fog reducing visibility or traction. Under clear nighttime conditions, a speed near the upper end of the legal freeway limit is acceptable, provided headlights and driver alertness compensate for reduced visibility.  
+- There are several other vehicles visible ahead in the right lanes, all traveling in the same direction. Their steady spacing and speed suggest no immediate braking or erratic lane changes. This stable traffic flow supports maintaining freeway speed rather than slowing significantly.
+
+2. Steering Angle  
+- The lane markings ahead are straight with no visible curvature. The road does not appear to bend left or right.  
+- There are no static or dynamic obstacles (debris, stalled cars, pedestrians) in the immediate path; the shoulder and median are clear.  
+- Other agents (vehicles ahead in adjacent lanes) are maintaining their lanes predictably. There is no sign of sudden merges or swerves toward our lane, so no evasive steering adjustments are required.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--20-41-07/12/preview.png,28.099305555555556,6.2,55-65 mph,Left,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. Typical speeds on such highways range from 55–70 mph.  
+- Driving conditions appear clear and dry, with no rain or snow. Good visibility but reduced lighting at night suggests maintaining a cautious but normal highway speed.  
+- There is moderate traffic: vehicles in the same and adjacent lanes, and tail lights visible in the distance. These vehicles are likely traveling at similar speeds with occasional braking or lane changes. To maintain safe following distances and allow reaction time for cars ahead slowing or merging, the driver should hold a speed appropriate for freeway traffic flow.  
+
+2. Steering Angle  
+- The lane ahead shows a very gentle leftward curvature. The dashed lane lines converge slightly to the left as they recede.  
+- No static obstacles (debris, stalled vehicles) are visible in the lane.  
+- Other vehicles are traveling in adjacent lanes; one is merging in the right lane ahead, another is overtaking on the left. To stay centered in the lane and anticipate any lateral movements by surrounding cars, a slight left steering adjustment is needed.  
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Left""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--12-07-08/30/preview.png,30.99652777777778,-0.3,65+ mph,Straight,"1. Speed  
+- Where is the vehicle driving? This is a multi-lane freeway (an interstate-style highway) with overhead guide signs for major exits and destinations. Typical speeds on this type of road range from 55–75 mph, depending on the posted limit.  
+- What are the driving conditions? The weather is clear, the pavement is dry, and visibility is high. In good conditions like this, drivers can safely travel near the upper end of the speed limit, provided traffic flow allows it.  
+- What other agents are in the scene? A white SUV is in the right lane slightly ahead, and a few other vehicles are visible in adjacent lanes at similar distances. No pedestrians, bicycles, or slow-moving vehicles are present. These cars appear to be traveling at a steady pace and are maintaining lane discipline, so there’s no immediate need to slow significantly for unpredictable behavior.
+
+2. Steering Angle  
+- What is the curvature of the lane? The lane ahead is essentially straight with no sharp curves.  
+- Are there any potential obstacles in the driver’s way? The roadway is clear—there are no debris, stalled vehicles, or construction zones visible.  
+- What other agents are in the scene? The vehicles around are holding their lanes and speeds. There’s no sign of a car merging abruptly into this lane or any pedestrians or cyclists. Therefore, no evasive steering is required.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/5/preview.png,32.860416666666666,0.3,65+ mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane divided freeway. Typical posted speeds on such freeways range from 55–70 mph, with many drivers cruising around 65 mph under normal conditions.  
+- The weather is clear and dry, with good visibility and dry pavement. These optimal driving conditions support maintaining freeway speeds safely, assuming the vehicle is in proper mechanical condition and following all traffic laws.  
+- There are several other vehicles in adjacent lanes and ahead, but no vulnerable road users (pedestrians, cyclists) are present. The cars ahead appear to be traveling at similar speeds and are maintaining lane discipline. As long as the driver keeps a safe following distance and remains alert for any sudden braking or lane changes by surrounding vehicles, there is no reason to slow significantly below the flow of traffic.
+
+2. Steering Angle  
+- The lane ahead appears straight with no significant curvature. The highway markings are parallel and the road does not curve left or right in the visible distance.  
+- There are no visible obstacles (debris, stalled vehicles, construction cones) directly in the vehicle’s path.  
+- Other vehicles in adjacent lanes could potentially drift or change lanes, but they are currently maintaining their lanes. The driver should hold a steady heading in the center of the lane, making only minimal steering corrections to stay aligned, and be prepared to adjust if another car intrudes.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/35/preview.png,31.22152777777778,0.7000000000000001,65+ mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane divided freeway. Typical posted speeds in this environment range from 55–70 mph.  
+- The weather is overcast but the pavement appears dry with no rain or snow. Under clear/dry conditions on a well-maintained freeway, maintaining near the speed limit is appropriate.  
+- There are a few vehicles ahead in adjacent lanes (a red car in the right lane, a white car in the center lane). They appear to be traveling at highway speeds and maintaining lane discipline. There is no immediate braking or lane-changing behavior visible. As long as the driver keeps a safe following distance, there is no need to reduce speed below the normal freeway flow.
+
+2. Steering Angle  
+- The freeway lanes are straight with negligible curvature.  
+- No obstacles (debris, stalled vehicles) are visible on the roadway.  
+- The other vehicles are centered in their own lanes and not encroaching. There is no indication of a sudden lane departure or obstacle avoidance maneuver required. The driver should maintain a neutral steering angle.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-16--21-52-30/6/preview.png,28.021527777777777,28.4,55-65 mph,Left,"1. Speed  
+- Where is the vehicle driving?  
+  • The scene shows a multi-lane divided roadway with a solid barrier on the right and dashed lane markings, consistent with a freeway or highway.  
+  • Typical speeds on such freeways at night under light traffic are between 55 and 70 mph.  
+
+- What are the driving conditions?  
+  • It is nighttime but visibility is clear with no rain, fog, or snow visible.  
+  • Clear, dry conditions permit maintaining normal freeway speeds, though slight caution is warranted at night.  
+
+- What other agents are in the scene?  
+  • There is a single vehicle ahead, indicated by red taillights, traveling in the adjacent lane.  
+  • No pedestrians, cyclists, or slow-moving vehicles are present.  
+  • The lead vehicle may brake or change lanes; maintaining a safe following distance suggests holding steady freeway speed rather than accelerating.  
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  • The lane ahead shows a gentle leftward sweep in the road markings.  
+  • This indicates the mainline curves slightly to the left.  
+
+- Are there any potential obstacles?  
+  • A concrete barrier lines the right side, and no debris or stalled vehicles are visible.  
+  • Staying centered in the lane avoids clipping the barrier.  
+
+- What other agents are in the scene?  
+  • The single car ahead could slow unpredictably; a slight leftward steering correction keeps a stable lane position and maintains safe spacing.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Left""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/38/preview.png,19.460416666666667,0.3,35-55 mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane urban freeway or highway, separated by a concrete median on the left and a merging lane on the right. Typical speed limits in this setting range from 55–65 mph.  
+- Conditions: The sky is overcast and visibility is somewhat reduced by fog or mist. The roadway appears damp. In these conditions, prudent drivers reduce speed slightly below the posted limit to maintain safe reaction distances and avoid hydroplaning.  
+- Other agents: Multiple vehicles are traveling ahead in all lanes at a steady pace. There is also a merging lane on the right with a “merge” sign, indicating potential incoming traffic. To accommodate merging vehicles and maintain safe headway, the driver should travel at a moderate freeway speed, allowing room for others to enter without abrupt braking.  
+
+2. Steering Angle  
+- Lane curvature: The travel lane is straight with clear lane markings extending directly ahead. There are no significant curves.  
+- Obstacles: A concrete barrier runs along the left side and the shoulder on the right is marked for merging traffic. No debris or stationary obstacles are visible on the travel path. The driver should maintain a centered position in the lane.  
+- Other agents: Vehicles in the left and right adjacent lanes could drift or change lanes, and cars may merge from the right. The driver should keep the steering steady and make only minor adjustments to remain centered, yielding slightly as needed to merging traffic but not initiating any turn.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/7/preview.png,31.89236111111111,0.0,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway (an interstate or highway). Typical speeds in this environment range from 55–75 mph depending on posted limits.  
+- Weather and road conditions are clear and dry, with good visibility and no precipitation. Under these conditions, maintaining normal highway speeds is appropriate.  
+- Other agents: several passenger cars are visible in adjacent lanes and ahead. They appear to be maintaining highway speeds and remaining in their lanes. None are braking hard or entering/exiting abruptly in the immediate vicinity. Their potential actions (e.g., lane changes) are predictable and gradual. As long as safe following distances are kept, the driver can maintain a freeway speed near the upper end of the normal range.
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with no significant curvature to the left or right.  
+- There are no obstacles (debris, stalled vehicles, or roadworks) in the lane.  
+- Other agents are maintaining their lanes at stable offsets. There is no immediate need to swerve or dodge. The driver should keep the steering wheel aligned to stay centered in the lane, making only minimal adjustments as needed for lane-keeping.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-06--10-04-53/26/preview.png,28.61319444444445,-5.6,55-65 mph,Right,"1. Speed  
+- The vehicle is on a multi-lane divided freeway. Typical speeds on this type of highway range from 55 to 65 mph.  
+- The weather is clear and the road surface appears dry, permitting normal highway speeds without additional reduction for traction.  
+- Other vehicles are traveling in adjacent lanes and ahead with no sudden braking visible. They may slow or change lanes, so maintaining a safe following distance and readiness to decelerate is important, but there is no heavy congestion requiring a significant speed reduction.
+
+2. Steering Angle  
+- The lane markings ahead are nearly straight with a very gentle rightward curvature as the roadway follows the natural terrain.  
+- There are no immediate obstacles in the driving lane. The shoulder is clear of encroaching debris or parked vehicles that would force a large steering adjustment.  
+- Adjacent vehicles remain centered in their lanes and appear to maintain course. To stay centered and follow the slight roadway bend, a small rightward steering input is appropriate.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/12/preview.png,30.083333333333336,5.9,65+ mph,Left,"1. Speed  
+- Location: The vehicle is on a multi-lane freeway. Typical posted speeds on such roads range from 65 to 75 mph.  
+- Conditions: The weather is clear and the road surface is dry. Under these conditions, maintaining freeway speeds is appropriate.  
+- Other agents: There are several cars in adjacent lanes and a moderate flow of traffic ahead. These vehicles could change lanes or brake suddenly. The driver should match the prevailing freeway speed while leaving sufficient following distance to react safely to any lane changes or slowdowns.
+
+2. Steering Angle  
+- Lane curvature: The freeway lane is nearly straight with only a very gentle leftward alignment ahead.  
+- Obstacles: There are concrete barriers on the left and a guardrail on the right, but no immediate obstacles intruding into the lane. Steering adjustments are needed only to maintain lane center.  
+- Other agents: Vehicles in neighboring lanes may drift or merge. A slight leftward steering correction will keep the car centered and stable in its lane, reducing the risk of unintentional drift toward the barriers or other cars.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Left""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-10--22-42-26/10/preview.png,29.115277777777777,-1.0,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. Typical speeds in this environment range from 55 to 70 mph, with posted limits often around 65 mph.  
+- Conditions appear clear and dry—no rain, snow, or fog—so traction is optimal. Night visibility is reduced, so the driver should remain vigilant but can maintain highway speeds.  
+- There are other vehicles ahead with red tail lights visible. They appear to be traveling steadily. Although they could brake or change lanes, they are maintaining lane discipline. The driver should keep a safe following distance and be ready to adjust speed if they slow, but there is no immediate reason to significantly reduce speed below the flow of traffic.
+
+2. Steering Angle  
+- The freeway lanes in view are straight with no visible curvature.  
+- No debris, stalled vehicles, or obstacles are present in the lane.  
+- Other vehicles are maintaining their lanes; none are merging into the driver’s path. Pedestrians or cyclists are absent. The driver should hold a centered, straight steering angle, making only minor adjustments for lane centering as needed.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/14/preview.png,18.86319444444445,4.6,35-55 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane city street at night rather than a freeway or residential neighborhood. Typical posted speeds on such roads range from 30–45 mph, with some city arterials allowing up to 50 mph.  
+- Conditions appear dry but visibility is reduced due to darkness and windshield droplets. Night driving generally calls for a slight reduction in speed from the posted limit to allow more reaction time.  
+- There are a few oncoming headlights in the distance but no vehicles directly ahead or merging, and no pedestrians or cyclists visible. With no immediate conflicts, the driver can safely maintain a moderate urban speed while remaining vigilant for any late-emerging hazards.
+
+2. Steering Angle  
+- The lane markings are straight with no significant curvature—this is a straight segment of road.  
+- No stationary or moving obstacles (parked cars, debris, cyclists) are present in the current lane.  
+- Oncoming traffic remains in opposing lanes, and there are no side-street vehicles or pedestrians approaching. This allows the driver to hold a straight steering angle, keeping centered in the lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--20-41-07/11/preview.png,27.97430555555556,-0.2,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. Typical speed limits on such freeways range from 55 to 70 mph, with 65 mph being common.  
+- Conditions appear clear and dry (no rain streaks, no snow, good visibility of lane markings under headlights). In clear, dry nighttime conditions, a speed near the posted limit is appropriate, while maintaining alertness for reduced peripheral visibility.  
+- Other agents: several vehicles are visible ahead and to the right, all traveling in the same direction and staying in their lanes. They do not appear to be braking abruptly or veering. To maintain a safe following distance at freeway speeds, the driver should match the traffic flow (around 55–65 mph) and be prepared to slow slightly if a lead vehicle decelerates.
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with no significant left or right curvature. Lane markings run parallel without noticeable bend.  
+- No stationary obstacles (debris, stalled cars) are visible on the roadway. The shoulders and median are clear.  
+- Other agents: the vehicles ahead and in adjacent lanes are maintaining lane discipline. There is no indication of pedestrians, cyclists, or erratic drivers entering the lane. Steering should remain centered in the lane (i.e., straight) while monitoring mirrors and peripheral vision for any sudden lane changes by others.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-55-39/7/preview.png,23.91458333333334,-0.7000000000000001,35-55 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane urban freeway or highway. Typical posted speeds in this environment range from 45–65 mph, with many drivers cruising around 50–55 mph.  
+- The weather is overcast but dry, with good visibility and no precipitation or standing water. Under these clear, dry conditions, maintaining the usual freeway speed is safe, though drivers should remain alert for changes in road grip if conditions worsen.  
+- There are several passenger cars in adjacent lanes and one directly ahead. These vehicles could brake unexpectedly or change lanes. To maintain a safe following distance (2–3 seconds) and allow time for evasive maneuvers, the driver should choose a moderate freeway speed rather than pushing the upper limit.  
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with no significant left or right curvature visible.  
+- There are no static obstacles (debris, stalled vehicles, construction barriers) in the immediate travel path. Road surface shows some cracks but they are not severe enough to require lane changes.  
+- Neighboring vehicles may drift laterally or make lane changes. The driver should hold a steady, centered steering input to remain in the lane and be prepared for slight corrective steering if another vehicle merges too closely.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-15--09-01-03/21/preview.png,26.536805555555556,-0.4,55-65 mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane freeway/highway. Typical posted speeds in this setting are in the 55–65 mph range.  
+- Conditions: It appears overcast with dry pavement and good visibility. No precipitation or surface hazards are visible, so there is no need to reduce speed for traction or visibility.  
+- Other agents: There is moderate traffic ahead and to the left, all moving at highway speeds. These vehicles may slow or change lanes, so the driver should maintain a safe following distance and be prepared to adjust speed but may otherwise travel with the flow.  
+
+2. Steering Angle  
+- Lane curvature: The travel lane is essentially straight with no significant left or right bend.  
+- Obstacles: There are no immediate obstacles in the lane. The right shoulder vegetation and the overpass ahead do not require any steering deviation.  
+- Other agents: Neighboring vehicles are maintaining lane discipline. None appear to be encroaching, so the driver should keep the steering wheel centered to stay in the lane.  
+
+3. Predicted Discrete Action  
+Based on highway environment, conditions, and traffic, the vehicle should continue at highway speed and maintain a straight trajectory.  
+
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--10-32-01/34/preview.png,27.69305555555556,-4.7,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway; typical speeds on such a roadway range from 55 to 70 mph, depending on the posted limit.  
+- Weather is overcast but the pavement appears dry with good visibility; there is no rain or snow. Under these clear, dry conditions the driver can safely travel near the posted limit but should remain alert for changing weather or light levels.  
+- Several other vehicles occupy the lanes ahead and to the left. They may slow, change lanes, or vary their speed unexpectedly. To maintain a safe following distance and allow for reaction time, the driver should travel at or slightly below the flow of traffic in the 55–65 mph band.
+
+2. Steering Angle  
+- The lane ahead is essentially straight with only a very gentle curvature, if any.  
+- There are no static obstacles (debris, stalled vehicle, cones) in the driver’s path.  
+- Other vehicles are present both ahead and in adjacent lanes; they could merge or drift slightly. The driver should keep the steering wheel centered to stay well within the lane and be prepared for minor corrections but does not need to turn left or right appreciably.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-50-48/13/preview.png,29.602777777777774,3.1,55-65 mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane freeway at night. Freeway speed limits are typically between 55 and 75 mph.  
+- Conditions: The windshield shows scattered droplets and the road surface is slightly reflective, indicating light rain or residual moisture. Reduced traction means maintaining a speed slightly below the upper limit enhances safety.  
+- Other agents: There is a car directly ahead in the center lane and another in the left lane. Neither is merging abruptly, but both could slow or change lanes. Maintaining a steady, moderate freeway speed allows sufficient reaction distance and avoids sudden braking.
+
+2. Steering Angle  
+- Lane curvature: The visible lanes are essentially straight with no significant left or right bend.  
+- Obstacles: There are no stationary obstacles or debris on the roadway.  
+- Other agents: The adjacent vehicles are maintaining their lanes. Staying centered in the lane with minimal steering corrections keeps the vehicle safely aligned and avoids unintended lane departures, especially on a damp surface.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-29--16-37-17/5/preview.png,7.813194444444445,-0.5,5-35 mph,Straight,"1. Speed  
+- Environment: The vehicle is on a two-lane residential/city street with bike lanes and on-street parking. Typical posted speeds on such roads range from 25–35 mph.  
+- Conditions: The road surface appears dry and visibility is clear though overcast. These normal conditions support the posted speed but warrant vigilance given the urban setting.  
+- Other agents:  
+  • A lead car directly ahead may brake or slow for turns or parked cars pulling out.  
+  • Parked vehicles on the right could have doors opening or pull-outs.  
+  • Potential pedestrians or cyclists could enter the roadway from sidewalks or bike lanes.  
+  Impact: Maintain a moderate urban speed (5–35 mph), ready to decelerate if the lead car slows or an unexpected obstacle appears.
+
+2. Steering Angle  
+- Lane curvature: The lane ahead is essentially straight with only a very gentle alignment; no sharp curves.  
+- Obstacles: No immediate obstacles in the travel lane. The bike lane markings and parked cars are clear of the driver’s lane.  
+- Other agents:  
+  • The lead vehicle may adjust within its lane or drift slightly when braking.  
+  • Parked cars might edge into the driving lane if occupants exit.  
+  Impact: Keep the steering centered to stay within the lane. Be prepared for minor adjustments (still “Straight”) to maintain lane position if the lead car brakes or if a parked car encroaches.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-55-39/1/preview.png,8.896527777777777,2.6,5-35 mph,Straight,"1. Speed  
+- The vehicle is driving on a two-lane city street in a commercial area. Typical posted speeds here range from 25–35 mph.  
+- The weather is overcast but dry, with good visibility and no precipitation. Under these clear, dry conditions, there is no need to reduce speed for traction, but you should still drive at or below the posted limit.  
+- Other agents include:  
+  • A pickup truck ahead that is in the process of turning left across the oncoming lane  
+  • A following vehicle closing in behind your car  
+  • Potential oncoming traffic in the far lane  
+Given the pickup’s unpredictable turn and mixed traffic flow, the driver should be prepared to brake or slow quickly. A cautious speed of 5–35 mph allows sufficient reaction time.
+
+2. Steering Angle  
+- The road segment is essentially straight, with only a very slight left-to-right crown.  
+- The main obstacle is the turning pickup occupying your lane. You should maintain lane position and avoid swerving into the oncoming lane.  
+- Other agents: the pickup could stop abruptly or complete its turn slowly. Oncoming vehicles may swerve slightly to avoid it. Maintaining a straight steering angle keeps you centered and ready to brake or steer around if the pickup stalls.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-06--10-04-53/31/preview.png,24.91805555555556,0.4,35-55 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical free-flow speeds on this kind of road are in the 55–65 mph range.  
+- The weather is clear with dry pavement and good visibility. Under ideal conditions one could travel at or near the speed limit, but the driver must stay alert for changing traffic.  
+- There are several vehicles ahead in the center and right lanes. They appear to be maintaining steady spacing and speed, but could slow down or change lanes at any time. To maintain a safe following distance and allow for smooth braking or evasive action, the driver should travel somewhat below the maximum comfortable freeway speed.
+
+2. Steering Angle  
+- The lane ahead is essentially straight with only a very slight, broad curvature that doesn’t require a sharp steering input.  
+- There are no visible obstacles (debris, stalled vehicles, etc.) in the vehicle’s path.  
+- The surrounding cars are all aligned in their lanes and not showing immediate intent to cut abruptly in front. The driver can keep the wheel centered while continuously monitoring for any sudden lane changes by others.
+
+3. Predicted Discrete Action  
+{  
+    ""speed"": ""35-55 mph"",  
+    ""steering"": ""Straight""  
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/14/preview.png,6.239583333333333,25.6,5-35 mph,Left,"1. Speed  
+- The vehicle is on a multi-lane urban arterial road approaching an exit ramp. Typical posted speeds here range from 35–45 mph, but actual travel speed is often lower in moderate traffic.  
+- Weather and roadway conditions are clear and dry, supporting normal speeds, but the density of surrounding traffic calls for a reduced, cautious pace.  
+- There are several vehicles directly ahead and in adjacent lanes, and at least one vehicle may merge from the right toward the exit. These factors suggest maintaining a moderate speed to allow safe braking and gap management.
+
+2. Steering Angle  
+- The lane ahead shows a slight leftward curve as the road bends.  
+- There are no stationary obstacles in the driving lane, but vehicles in the right lane could drift toward the exit, and vehicles in the left lane may slow or change lanes.  
+- Monitoring these neighboring vehicles requires a small continuous left steering input to stay centered in the current lane and follow its curvature.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Left""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--20-41-07/14/preview.png,28.756944444444446,0.3,55-65 mph,Straight,"1. Speed  
+- Environment: The vehicle is driving on a multi-lane freeway at night. Typical speeds on this type of roadway are between 55 and 65 mph (often posted 65 mph).  
+- Driving conditions: The road appears dry and visibility is clear (no rain, snow, or fog). Under clear, dry conditions at night, maintaining the posted limit or slightly below is appropriate to balance safety and traffic flow.  
+- Other agents: There are a few vehicles visible in the right lanes ahead. They appear to be maintaining steady speeds. None are cutting sharply across lanes or braking heavily. Given the clear lane directly ahead and moderate traffic, the driver can maintain freeway speed but remain alert for any sudden lane changes or slow-downs.
+
+2. Steering Angle  
+- Lane curvature: The lanes are essentially straight with only a very gentle, imperceptible alignment.  
+- Obstacles: There are no fixed or unexpected obstacles (debris, stalled cars) directly in the path.  
+- Other agents: Other vehicles are in adjacent lanes to the right. They may change lanes or adjust speed, but their positions are stable and no abrupt maneuvers are evident. The driver should keep the wheel centered to stay in the current lane, ready to make minimal steering corrections if a neighboring vehicle drifts.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-16--21-52-30/5/preview.png,25.58125,4.8,55-65 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  The scene shows a multi-lane freeway or highway at night. Typical speeds on such roads range from 55 to 70 mph, depending on the posted limit and traffic flow.  
+- What are the driving conditions?  
+  It is clear and dry at night. While visibility is reduced compared to daytime, there is no precipitation or ice. Drivers should maintain a normal freeway speed but remain vigilant, possibly reducing speed slightly to account for lower visibility.  
+- What other agents are in the scene?  
+  There are several vehicles ahead in adjacent lanes, all traveling in the same direction. These cars may brake, change lanes, or adjust speed. To maintain safety, the driver should keep a safe following distance and be prepared to slow down if any vehicle ahead decelerates or merges unexpectedly.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  The lane appears straight with no significant left or right curvature. The road markings run parallel to the vehicle’s heading.  
+- Are there any potential obstacles?  
+  There are no visible obstacles or debris on the roadway. All lanes ahead appear clear.  
+- What other agents are in the scene?  
+  Nearby vehicles are maintaining straight paths. There is no indication of pedestrians, cyclists, or erratic behavior from other drivers that would require an evasive steering maneuver. The driver should keep the steering centered to stay in the lane, making only minimal adjustments to remain aligned with the lane markings.
+
+3. Predicted Discrete Action  
+Use the following JSON format for the final prediction:
+
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--20-41-07/8/preview.png,22.515277777777776,4.4,35-55 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  • The scene is a multi-lane divided freeway at night. Freeway travel typically ranges from 55 to 75 mph in most U.S. jurisdictions.  
+- Driving conditions:  
+  • It is dark but appears clear and dry with no precipitation, ice, or fog. Nighttime reduces visibility, so drivers often reduce speed slightly below the daytime limit for safety.  
+- Other agents:  
+  • There is a lead vehicle in the same lane approximately 50–100 ft ahead traveling at a steady pace, and oncoming traffic on the opposite carriageway separated by a median barrier.  
+  • No pedestrians or bicyclists are present. No vehicles are merging immediately in front of us.  
+- Impact on speed:  
+  • Maintain a safe following distance behind the lead vehicle, matching its pace.  
+  • A modest reduction below the posted limit is prudent at night, so a speed in the 35–55 mph range keeps a buffer for reaction time.
+
+2. Steering Angle  
+- Lane curvature:  
+  • The freeway lane is essentially straight with no significant left or right bend.  
+- Potential obstacles:  
+  • No debris or stalled vehicles on the roadway. The shoulder is clear aside from a parked car far to the right.  
+- Other agents:  
+  • The lead vehicle is centered in its lane and not drifting. Oncoming headlights and roadside trees are distant and do not encroach on our lane.  
+- Impact on steering:  
+  • Maintain a straight steering angle to stay centered in the current lane given the absence of curves or imminent hazards.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/12/preview.png,33.022222222222226,0.0,65+ mph,Straight,"1. Speed  
+- The vehicle is on a multilane freeway at night. Typical speeds on this type of highway are in the 65–75 mph range.  
+- The road surface appears dry and visibility, while limited by darkness, is clear (no rain, snow, or fog). Under clear, dry conditions at night, maintaining the posted freeway speed (around 65 mph) with heightened attention is appropriate.  
+- There is moderate traffic: a line of taillights ahead in the same lane and a vehicle in the adjacent lane to the right. These vehicles may slow or merge unexpectedly. To keep a safe following distance, the driver should match the flow (around 65 mph) and be ready to decelerate if traffic ahead slows.
+
+2. Steering Angle  
+- The freeway lane is essentially straight, with only a very gentle alignment to the right.  
+- There are no immediate obstacles (debris, stalled vehicles) in the lane.  
+- Other vehicles are in adjacent lanes; none appear to be cutting in. Maintaining a straight steering angle keeps the vehicle centered and stable, ready to adjust if a neighboring car drifts.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--10-32-01/30/preview.png,30.953472222222224,-1.9,65+ mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multi-lane freeway (likely an interstate near South San Francisco). Typical speeds on this type of road range from 55–75 mph, with most drivers cruising around 65 mph.  
+- Conditions: It appears overcast but the pavement looks dry and visibility is good. No rain or snow is reducing traction or sight distance, so there’s no need to significantly reduce speed below the posted limit.  
+- Other agents: There is a single lead vehicle in the same lane several car-lengths ahead, plus a few vehicles in adjacent lanes. None are braking sharply or merging aggressively. To maintain a safe following distance, the driver should match the flow of traffic (around 65 mph) and be prepared to brake if the lead car slows.
+
+2. Steering Angle  
+- Lane curvature: The lane is essentially straight over the next few hundred yards. There is no noticeable left or right bend.  
+- Obstacles: No debris, stalled vehicles, construction cones, or unusual obstacles are visible in the lane. The road is clear.  
+- Other agents: Surrounding vehicles are maintaining their lanes and speeds. There is no imminent lane change or pedestrian crossing. The driver should hold a straight steering angle to remain centered in the lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-10--22-42-26/12/preview.png,22.69930555555556,-7.5,35-55 mph,Right,"1. Speed  
+- Where is the vehicle driving?  
+  The scene shows a multi-lane, limited-access highway (freeway) at night. Typical speeds on this type of road are in the 55–65 mph range under normal conditions.  
+- What are the driving conditions?  
+  It appears to be clear and dry with no precipitation. Nighttime visibility is reduced, so a slightly lower speed than the posted limit helps maintain safety and reaction time.  
+- What other agents are in the scene?  
+  There are several vehicles ahead in the same and adjacent lanes, indicated by red tail lights. They may brake or change lanes unexpectedly. Maintaining a safe following distance suggests a moderate speed around 35–55 mph to allow time to react.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  The lane ahead shows a gentle curve to the right. Lane markings curve subtly in that direction.  
+- Are there any potential obstacles in the driver’s way?  
+  No debris or stationary obstacles are visible. The road surface appears clear, so steering should simply follow the lane’s curvature.  
+- What other agents are in the scene?  
+  Other vehicles are traveling in parallel lanes. To stay centered in the current lane and avoid encroaching on adjacent traffic, a slight right steering correction is appropriate to match the roadway’s bend.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--10-32-01/37/preview.png,0.0,-1.5,0-5 mph,Straight,"1. Speed  
+- Environment: The vehicle is on a city street approaching an urban intersection controlled by a traffic signal. Typical speed limits here range from 25–35 mph.  
+- Conditions: The road surface appears dry and visibility is good under overcast skies. In clear, dry conditions a driver can maintain normal urban speeds when moving, but must slow and stop for red lights.  
+- Other agents: Several vehicles are stopped ahead at a red light. There may be pedestrians waiting to cross or starting to step off the curb when lights change. To ensure safety, the driver should be at or near a complete stop (0–5 mph) while waiting.
+
+2. Steering Angle  
+- Lane curvature: The lane markings ahead are straight with no visible left or right curvature.  
+- Obstacles: Directly ahead is a stopped vehicle occupying the lane; to the right is a raised curb and pedestrian crosswalk. There are no temporary obstacles requiring a steering deviation.  
+- Other agents: Adjacent vehicles are also stopped. Pedestrians could cross straight ahead. The driver should maintain a straight steering angle, centered in the lane, to hold position and be ready to proceed when the light turns green.
+
+3. Predicted Discrete Action  
+Provide your final discrete predictions using ONLY the allowed values:
+
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/10/preview.png,26.836111111111116,0.2,55-65 mph,Straight,"1. Speed  
+- Environment: The vehicle is driving on a multi-lane freeway (visible concrete median, multiple marked lanes, freeway exit signage for Pacifica). Typical speeds on this type of freeway range from 55–65 mph under normal conditions.  
+- Conditions: It is clear and dry, with good visibility and no precipitation. These conditions support maintaining normal freeway speeds, though the driver should remain alert for changes in traffic flow.  
+- Other Agents: There is moderate traffic in the adjacent lanes—vehicles ahead, to the right, and a concrete barrier on the left separating opposing traffic. Cars may slow, change lanes, or merge from entrance ramps (exit signage suggests nearby on-ramps/off-ramps). To maintain a safe following distance and allow for merging traffic, the driver should travel at or just below the posted freeway speed limit.  
+
+2. Steering Angle  
+- Lane Curvature: The visible lanes are essentially straight with only a very slight alignment drift. There is no sharp curve requiring significant wheel input.  
+- Obstacles: The concrete median on the left and adjacent vehicles on the right limit lateral space. No debris or immediate hazards are in the lane. The only potential concern is merging traffic from the right.  
+- Other Agents: Vehicles in the right lane could merge or drift. Pedestrians and bicyclists are not present. The driver should maintain a steady, centered lane position and be prepared for minimal corrective steering if another car drifts toward the lane.  
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/7/preview.png,0.0,-0.7999999999999999,0-5 mph,Straight,"1. Speed  
+- The vehicle is stopped at an urban intersection on a city street. Typical travel speeds here are in the 25–35 mph range when moving.  
+- Conditions are clear and dry at night. In clear dry conditions one can safely travel at the posted speed, but approaching a red signal requires a full stop or crawl.  
+- There is a line of traffic ahead stopped at a red light, and pedestrians are waiting at the crosswalk. To ensure safety and compliance, the driver must slow to a near stop (0–5 mph) to avoid colliding with the lead vehicle or pedestrians entering the crosswalk.
+
+2. Steering Angle  
+- The lane is straight through the intersection with no curvature.  
+- The primary obstacles are the stopped vehicle directly ahead and pedestrians at the crosswalk. There are also vehicles making turning movements in adjacent lanes. Keeping the wheels straight maintains lane discipline and avoids encroaching on neighboring lanes or the crosswalk.  
+- Other agents include cross‐traffic vehicles and pedestrians who may begin crossing on the walk signal. A straight steering angle ensures the vehicle remains centered and can respond predictably to any sudden pedestrian or vehicle movements.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/13/preview.png,32.19444444444445,-0.6000000000000001,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway at night. Typical speeds on this type of roadway range from 55–75 mph, with posted limits often around 65 mph.  
+- The weather and road surface appear clear and dry, though reduced visibility at night suggests maintaining a speed that allows sufficient reaction time.  
+- There are a few distant vehicles up ahead in adjacent lanes but no nearby traffic, pedestrians, or cyclists. Their behavior is unlikely to intrude into the lane abruptly, so maintaining highway speed is reasonable.
+
+2. Steering Angle  
+- The lane markings ahead are essentially straight, indicating little to no curvature in the current segment of roadway.  
+- There are no visible obstacles on the roadway surface (debris, stalled vehicles, etc.) requiring evasive steering.  
+- Other vehicles are well clear of the host vehicle’s lane. No merging vehicles or pedestrians necessitate steering adjustments.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-15--09-01-03/19/preview.png,25.645833333333336,8.9,55-65 mph,Left,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speeds on such roads range from 55–70 mph depending on local limits.  
+- Weather appears overcast but dry, with clear visibility and a dry pavement. These conditions permit normal freeway speeds without additional reduction.  
+- Other vehicles are visible in adjacent lanes and ahead at moderate spacing. They may maintain speed or change lanes gradually; none are braking sharply or encroaching. Maintaining highway speed keeps pace and reduces unnecessary lane changes.
+
+2. Steering Angle  
+- The freeway lane gently curves to the left. The white dashed lines bend slightly in that direction, indicating a gradual leftward curvature.  
+- There are no obstacles (debris, stalled cars) in the lane. Guardrails and trees line the right side, but clearance is ample.  
+- Other vehicles in neighboring lanes could drift or merge. A slight left steering adjustment keeps the car centered, while monitoring mirrors for nearby traffic before any lane shift.
+
+3. Predicted Discrete Action  
+Based on freeway context, dry conditions, light traffic, and gentle leftward curvature:
+
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Left""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-55-39/8/preview.png,0.9229166666666662,3.1,0-5 mph,Straight,"1. Speed  
+- Environment: The vehicle is on a multilane urban street, likely a city thoroughfare adjacent to a gas station and residential sidewalks. Typical free-flow speeds here are around 25–35 mph.  
+- Conditions: It is overcast but dry, with good visibility and no adverse weather. However, the road surface appears damp or recently wet, so traction is normal but caution is prudent.  
+- Other agents: There is heavy stop-and-go traffic in the same lane, with brake lights illuminated on the car immediately ahead. On the left, another queue of vehicles is waiting to merge or turn. Pedestrians could step off the curb at any time. Given this dense traffic and potential for sudden stops or merges, the vehicle should crawl or remain nearly stopped.  
+
+2. Steering Angle  
+- Lane curvature: The lane ahead is essentially straight with no noticeable left or right bend. Lane markings are parallel to the vehicle’s heading.  
+- Obstacles: No stationary obstacles are obstructing the forward path. Parked vehicles line the left shoulder, and a curb and sidewalk border the right.  
+- Other agents: Adjacent vehicles may swerve or merge, especially the car in the left lane that could cut in. However, with tight spacing, the safest action is to maintain a straight heading centered in the lane.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""0-5 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/13/preview.png,33.241666666666674,-6.5,65+ mph,Right,"1. Speed  
+- Environment: The vehicle is driving on a multi-lane freeway (an access-controlled highway). Typical speeds on such freeways range from 55–75 mph depending on local limits.  
+- Driving conditions: It is a clear, dry day with good visibility and dry pavement. Under these conditions the vehicle can safely travel near the posted speed limit, provided traffic flow and spacing are maintained.  
+- Other agents: There are several vehicles visible in the same and adjacent lanes, but all are at a safe distance. They may maintain speed or change lanes. To allow for safe reaction time to any sudden braking or merges, the driver should cruise near the speed limit but be prepared to decelerate if a vehicle ahead slows or merges unexpectedly.
+
+2. Steering Angle  
+- Lane curvature: The road exhibits a gentle rightward curvature as it follows the hillside.  
+- Obstacles: There are no immediate obstacles in the driver’s lane. A concrete barrier runs along the left, and trees cast shadows on the right shoulder, but the travel lane itself is clear. The driver should maintain a steady lane-center position, gently steering right to follow the roadway.  
+- Other agents: Vehicles ahead could drift within their lanes or merge. By keeping the steering aligned with the rightward curve and maintaining lane discipline, the driver minimizes the risk of encroaching on adjacent lanes and allows room for others to maneuver.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-15--09-01-03/18/preview.png,27.37430555555556,0.6000000000000001,55-65 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  - The scene is a multilane divided freeway (highway) with no traffic signals or cross-traffic. Typical speeds on this type of road range from 55–65 mph (or the posted limit, often around 65 mph).  
+- What are the driving conditions?  
+  - The weather is overcast but the pavement appears dry and visibility is good. There is no rain, snow, or fog limiting traction or sight. Under these conditions, maintaining a normal freeway speed is appropriate.  
+- What other agents are in the scene?  
+  - There are several passenger vehicles in adjacent lanes, including a white sedan slightly ahead in the center lane and more cars farther up. None are braking abruptly or weaving. They are all maintaining lane discipline and similar speeds.  
+  - Because traffic is moderate and flowing steadily, the driver should match the prevailing freeway speed (while keeping a safe following distance) rather than slowing down unnecessarily.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  - The road ahead is essentially straight with only a very gentle, almost imperceptible, rightward sweep. There are clear, parallel lane markings.  
+- Are there any potential obstacles in the driver’s way?  
+  - No stationary obstacles or construction cones are visible in the lane of travel. Guardrails line the outer edge, but they do not encroach into the drivable area.  
+- What other agents are in the scene?  
+  - The surrounding vehicles remain centered in their lanes. None appear about to merge suddenly into our lane or swerve.  
+  - Given this stable traffic flow and straight roadway, minimal steering correction is needed—the vehicle should continue straight, centered in its lane, making only very slight adjustments to stay aligned.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-06--10-04-53/25/preview.png,28.557638888888892,-5.3,55-65 mph,Right,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speed limits on such freeways range from 55–65 mph.  
+- The weather is clear, the pavement is dry, and visibility is good. Under these ideal conditions, maintaining near the posted freeway speed is appropriate.  
+- Other vehicles are present: a beige SUV in the adjacent lane and a few cars farther ahead. These vehicles are traveling at freeway speeds and are not performing abrupt maneuvers. The driver should match the flow of traffic while keeping a safe following distance, ready to adjust speed if the lead SUV begins to slow.
+
+2. Steering Angle  
+- The freeway lane has a gentle curvature to the right, as indicated by the way the lane markings and the uphill grade bend.  
+- There are no static obstacles in the lane. Should one appear (debris or a stalled vehicle), the driver would steer smoothly around it, but none are visible.  
+- Nearby vehicles could change lanes or drift; in particular, the SUV slightly ahead may drift toward the center lane. To stay centered and accommodate any lateral movements by neighboring cars, the driver maintains a slight right wheel angle, aligned with the curved lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-16--21-52-30/8/preview.png,31.145138888888894,-1.0,65+ mph,Straight,"1. Speed  
+- Environment: The vehicle is driving on a multi-lane freeway at night. Typical speeds on this type of road are in the range of 55–75 mph, with common posted limits around 65 mph.  
+- Conditions: It is clear and dry with good visibility from headlights and lane-line reflectors. These favorable conditions support maintaining highway speeds, though night driving requires slightly increased alertness.  
+- Other agents: There are a few vehicles ahead in the same direction and distant oncoming headlights across the median. No pedestrians, bicyclists, or erratic traffic are visible. Maintaining a steady speed near the posted limit keeps a safe following distance and smooth traffic flow.
+
+2. Steering Angle  
+- Lane curvature: The freeway lane exhibits a gentle rightward curve, but it is gradual and well-banked.  
+- Obstacles: There are no obstacles or debris in the lane. Traffic is centered in their lanes, and the shoulder on the right is clear.  
+- Other agents: The lead vehicles are tracking straight within their lanes and are not making sudden maneuvers. No merging traffic or pedestrians are present that would necessitate a steer-away. A minimal steering correction keeps the vehicle centered, effectively “straight.”
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--12-07-08/33/preview.png,26.29861111111111,-0.7999999999999999,55-65 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speeds in this environment range from 55–70 mph, depending on posted limits.  
+- Conditions are clear and dry, with good visibility and pavement grip. This supports maintaining a speed near the legal limit but requires vigilance for traffic flow changes.  
+- Several other vehicles are visible in adjacent lanes and ahead (pickups, sedans). They appear to be traveling at similar speeds with no sudden braking. No pedestrians or cyclists are present. The driver should match the flow, maintain a safe following distance, and be prepared to slow if any vehicle ahead decelerates or merges across lanes.
+
+2. Steering Angle  
+- The lane is straight with clearly marked white dashed lines indicating no significant curvature.  
+- There are no obstacles (debris, stalled cars) encroaching on the lane.  
+- Other vehicles may change lanes or drift; the driver should maintain central lane position and be ready for small steering corrections to stay centered and avoid encroaching on adjacent vehicles’ paths.
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-44-30/9/preview.png,30.08333333333333,-7.9,65+ mph,Right,"1. Speed  
+- Environment: The vehicle is on a multi-lane divided highway/freeway. Typical operating speeds on this type of roadway are between 55–65 mph, often with posted limits around 65 mph.  
+- Driving conditions: The pavement appears dry and visibility is moderate under overcast skies. There is no rain, snow, or fog to warrant a speed reduction, so traveling near the posted limit is appropriate.  
+- Other agents: Traffic is light to moderate, consisting solely of other vehicles in adjacent lanes. No pedestrians or cyclists are present. All vehicles appear to be maintaining their lanes and speeds. A stable traffic flow with safe following distances means the driver can comfortably maintain highway speed without frequent braking or acceleration.
+
+2. Steering Angle  
+- Lane curvature: The road gently bends to the right. The driver’s lane markings arc slightly rightward, indicating a mild right turn.  
+- Obstacles: The right shoulder shows some pavement cracking and uneven surface, so hugging the lane center is safer than drifting right. No debris or hazards are visible in the travel lane.  
+- Other agents: Vehicles ahead and to the left are holding their lanes without weaving. To remain centered within the curved lane and avoid the shoulder’s rough edge, the driver should steer gently to the right, matching the roadway’s curvature.
+
+3. Predicted Discrete Action  
+Provide your final discrete predictions using ONLY the allowed values:
+
+Speed options: ""0-5 mph"", ""5-35 mph"", ""35-55 mph"", ""55-65 mph"", ""65+ mph""  
+Steering options: ""Left"", ""Straight"", ""Right""
+
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Right""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-01--21-13-49/9/preview.png,31.78888888888889,-2.1,65+ mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane freeway at night, where posted limits are typically 65–75 mph; drivers commonly cruise around 65 mph.  
+- Conditions appear clear and dry (no rain, snow, fog); visibility is lower at night, so maintaining a steady highway speed with full headlights is appropriate.  
+- Other traffic: several vehicles ahead in the same lane and adjacent lanes, plus oncoming headlights on the far left. These cars may change lanes or slow for exits. Maintaining a 2- to 3-second following distance suggests holding roughly the speed of surrounding vehicles (around 65 mph) unless an immediate slowdown is required.
+
+2. Steering Angle  
+- The lane ahead is essentially straight with only a very gentle drift, indicating minimal curvature.  
+- No static obstacles (debris, stalled cars) are visible in the lane; the clear roadway allows the steering wheel to remain centered.  
+- Other agents in adjacent lanes could merge or drift, but there’s ample lateral space. A slight centered correction (“straight”) will keep the vehicle properly in its lane without oversteering.
+
+3. Predicted Discrete Action  
+Provide your final discrete predictions using ONLY the allowed values:
+
+```json
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-31--20-50-28/13/preview.png,33.22569444444444,1.1,65+ mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane freeway at night. Typical speed limits here range from 65–75 mph.  
+- Conditions are clear and dry, with good visibility of lane markings and other vehicles. Under these conditions a highway speed is appropriate, though slight caution at night may warrant maintaining rather than exceeding the posted limit.  
+- Other agents include cars ahead in adjacent lanes and oncoming traffic separated by a barrier. They appear to be traveling at freeway speeds with steady spacing. There is no immediate merging or braking hazard, so maintaining a consistent highway speed is safe.
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with very gentle alignment rather than a noticeable curve.  
+- There are no obstacles intruding into the current lane; a concrete barrier lies to the left and a vehicle occupies the right lane, both well outside the car’s path.  
+- Adjacent vehicles are holding their lanes without sudden swerving or merging. The safest path is to continue straight, keeping the vehicle centered in its lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-15--09-01-03/16/preview.png,24.93125,5.7,35-55 mph,Left,"1. Speed  
+- The vehicle is on a multi-lane freeway (interstate/highway), where typical posted speeds range from 55–70 mph.  
+- Weather is overcast but road surface appears dry with no precipitation. Clear but cloudy conditions allow for normal freeway speeds, though reduced slightly in moderate traffic.  
+- There are several passenger cars ahead and to the right, and a vehicle entering the exit lane. These surrounding vehicles could decelerate to exit or change lanes. To maintain a safe following distance and allow reaction time for lane changes or braking by others, the driver should adopt a moderate freeway speed below the upper limit.
+
+2. Steering Angle  
+- The mainline lanes exhibit a gentle leftward curvature as the road bends slightly in that direction.  
+- No stationary obstacles are present in the lane; lane markings are clear.  
+- Other vehicles are clustered more to the right and may be drifting toward the exit lane. To stay centered in the travel lane and avoid encroaching on the exit area, the driver should apply a slight continuous left steering correction.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Left""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/30/preview.png,31.268750000000004,-0.6000000000000001,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speed limits on such roads are between 55–70 mph.  
+- Weather appears overcast but dry, with good visibility and no precipitation. These clear conditions allow for maintaining highway speed without extra reduction.  
+- Surrounding agents include several cars in adjacent and leading lanes. They are spaced out, traveling steadily, and not braking sharply. There are no pedestrians, bicyclists, or slow-moving vehicles encroaching on the lane. This stable traffic flow supports keeping freeway speed.  
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with no significant left or right curvature visible in the near or mid-range.  
+- There are no obstacles—debris, stalled vehicles, or roadwork—in the vehicle’s path that would require an evasive steering adjustment.  
+- Other vehicles are maintaining their lanes with predictable trajectories. There’s no indication of neighboring cars swerving or merging abruptly into this lane. Accordingly, minimal steering correction is needed.  
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--16-41-38/14/preview.png,31.665972222222223,-1.7,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speeds on this type of roadway are in the 55–70 mph range, often posted at 65 mph in many regions.  
+- The weather is clear and the pavement is dry, with unobstructed visibility. Under these conditions, maintaining the normal freeway speed is appropriate, provided safe following distances are kept.  
+- There are several other vehicles visible: one directly ahead in the same lane and others in adjacent lanes. None appear to be braking hard or merging aggressively. The driver should match the flow of traffic (around 65 mph) while monitoring for any sudden slowdowns.  
+
+2. Steering Angle  
+- The visible travel lane is essentially straight, with no sharp curvature.  
+- There are no obstacles (debris, stalled vehicles) in the lane requiring a deviation.  
+- Nearby vehicles are maintaining their lanes; no signs of an imminent cut-in. The driver should keep the wheel centered and track the lane markings.  
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/29/preview.png,29.696527777777774,0.1,55-65 mph,Straight,"1. Speed  
+- Where is the vehicle driving?  
+  - The scene is a multi-lane freeway or highway (at least three lanes in the travel direction). Typical speeds on such roads range from 55 to 70 mph depending on local limits.  
+- What are the driving conditions?  
+  - It is clear, dry, and sunny with good visibility and no precipitation or wet pavement. Under these conditions, maintaining a normal freeway speed is appropriate.  
+- What other agents are in the scene?  
+  - There is one vehicle immediately ahead in the center lane and another in the left lane. Both appear to be traveling at steady speeds with comfortable following distances. There are no pedestrians, cyclists, or slow-moving vehicles present.  
+  - No sudden braking is anticipated, so the driver can safely maintain freeway speed.
+
+2. Steering Angle  
+- What is the curvature of the lane?  
+  - The travel lane is essentially straight over the visible distance, with only a very slight curvature (if any).  
+- Are there any potential obstacles?  
+  - No fixed or moving obstacles are encroaching into the lane. The roadway is clear.  
+- What other agents are in the scene?  
+  - The two vehicles nearby are in adjacent lanes and are holding their lines. No one is drifting or signaling a lane change. No merging traffic is immediately visible despite a merge-warning sign on the shoulder.  
+  - There is no reason for a steering deviation beyond maintaining lane centering.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--10-32-01/26/preview.png,30.494444444444447,0.6000000000000001,65+ mph,Straight,"1. Speed  
+- The vehicle is driving on a multi-lane freeway. Typical speeds on this type of limited-access highway range from 55 to 75 mph, depending on local limits.  
+- The weather appears overcast but the road surface is dry and visibility is good. In clear, dry conditions on a straight freeway segment, the driver can safely maintain the posted freeway pace.  
+- Other agents: there are a few passenger cars in adjacent lanes and at a distance ahead. None are braking hard or cutting in abruptly. To maintain a safe following distance and match traffic flow, the driver should hold a steady highway speed rather than slow down or accelerate excessively.
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with no significant curvature to the left or right.  
+- There are no static obstacles (debris, stalled vehicles) in the lane of travel.  
+- Other vehicles are maintaining their lanes and speeds. Given the absence of sudden lane changes or pedestrians on a freeway, minimal steering correction is needed to stay centered in the lane.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""65+ mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-30--13-03-07/17/preview.png,25.512500000000003,2.6,55-65 mph,Straight,"1. Speed  
+- The vehicle is on a multi-lane divided freeway. Typical speeds on this type of roadway are in the 55–65 mph range.  
+- Conditions appear overcast but dry, with good visibility and no precipitation; these conditions support normal freeway speeds but require vigilance for changing weather.  
+- There are several cars ahead and to the right. They could slow, accelerate, or merge. Maintaining a steady speed of roughly 55–65 mph with active monitoring of their brake lights and lanes keeps a safe following distance and allows time to react if they decelerate or cut in.
+
+2. Steering Angle  
+- The lane ahead is essentially straight, with no significant curvature.  
+- No stationary obstacles (debris, stalled vehicles) are visible in the travel lane.  
+- Nearby vehicles in adjacent lanes could drift or merge; keeping the steering wheel centered (“Straight”) maintains lane position and allows minor adjustments if another car encroaches.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""55-65 mph"",
+    ""steering"": ""Straight""
+}"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--20-41-07/4/preview.png,11.836111111111112,-0.8999999999999999,5-35 mph,Straight,"1. Speed  
+- The vehicle is driving on a city street, likely a two-lane urban road with a posted speed limit around 40 mph. Typical speeds here range from 30–40 mph.  
+- It is nighttime with clear but low-light conditions. Reduced visibility means the driver should choose a speed below the maximum limit to allow for reaction to unexpected hazards.  
+- There are oncoming vehicles in the opposite lane and a parked car on the right. There is also a marked crosswalk immediately ahead. Even though no pedestrians are currently visible, someone could step onto the crosswalk. These factors call for a moderate, cautious city speed.  
+
+2. Steering Angle  
+- The lane ahead is straight with clearly painted lane lines; there is no curve requiring a turn.  
+- There are no immediate obstacles in the lane; the crosswalk markings do not change the steering path.  
+- Oncoming traffic remains in its lane, and the parked car on the right is not encroaching. No pedestrians or cyclists are present at this moment, so the driver should maintain a straight steering angle, staying centered in the lane.  
+
+3. Predicted Discrete Action  
+```json
+{
+    ""speed"": ""5-35 mph"",
+    ""steering"": ""Straight""
+}
+```"
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-10--22-42-26/3/preview.png,21.692361111111115,-3.4,35-55 mph,Straight,"1. Speed  
+- The vehicle is driving on a multi‐lane urban arterial or city street at night. Typical speeds on such roads range from 25–45 mph, depending on posted limits and flow.  
+- Conditions are clear and dry, with good visibility from streetlights but reduced natural light. Night driving warrants a slight reduction in speed compared to daytime to allow for longer reaction times.  
+- Other agents: a silver car is traveling ahead in the right lane at a steady speed, and there is oncoming traffic in the opposing lanes. No pedestrians or cyclists are visible. The driver should maintain a safe following distance behind the lead vehicle and avoid sudden braking. A moderate speed keeps pace with traffic while preserving reaction margin.
+
+2. Steering Angle  
+- The lane ahead is straight, with clearly marked dashed white lines. There is no significant curvature.  
+- No obstacles (debris, stationary vehicles, cones) are visible in the lane.  
+- Other agents: the vehicle ahead remains centered, and oncoming headlights are confined to the opposite side. There is no need for evasive steering; the driver should maintain a straight heading.
+
+3. Predicted Discrete Action  
+{
+    ""speed"": ""35-55 mph"",
+    ""steering"": ""Straight""
+}"

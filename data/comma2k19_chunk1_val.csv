@@ -1,0 +1,16 @@
+image_path,speed,steering_angle,discrete_speed,discrete_steering
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-55-39/2/preview.png,5.979861111111111,1.8,5-35 mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--10-32-01/28/preview.png,33.53541666666666,0.2,65+ mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/39/preview.png,0.0,-0.4,0-5 mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-29--12-02-42/27/preview.png,28.00625,9.5,55-65 mph,Left
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-06--10-04-53/30/preview.png,25.96666666666667,3.3,55-65 mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-02--08-34-47/40/preview.png,7.974305555555556,-0.4,5-35 mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-29--11-17-20/6/preview.png,27.899305555555557,-0.6000000000000001,55-65 mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--20-41-07/10/preview.png,26.32986111111111,-3.8,55-65 mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-15--09-01-03/22/preview.png,29.54166666666667,-0.30000000000000004,55-65 mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-07-27--06-03-57/9/preview.png,28.713194444444447,6.7,55-65 mph,Left
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-14--20-41-07/13/preview.png,28.72222222222222,2.9,55-65 mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-17-47/10/preview.png,27.740277777777777,0.30000000000000004,55-65 mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-17--14-55-39/4/preview.png,4.4833333333333325,1.2,5-35 mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-03--10-35-16/15/preview.png,4.259027777777776,-4.1,5-35 mph,Straight
+../data/comma2k19/Chunk_1/b0c9d2329ad1606b|2018-08-10--22-42-26/7/preview.png,29.80625,-7.7,55-65 mph,Right
